@@ -1,0 +1,764 @@
+session_config:
+  session_expiration_time: 0.0
+  carry_over_slots_to_new_session: true
+intents:
+- user.ask_weather:
+    triggers: utter_user.ask_weather
+- user.fuck_agent:
+    triggers: utter_user.fuck_agent
+- agent.boy_girl:
+    triggers: utter_agent.boy_girl
+- user.waits:
+    triggers: utter_user.waits
+- user.wants_to_see_agent_again:
+    triggers: utter_user.wants_to_see_agent_again
+- user.wants_to_talk:
+    triggers: utter_user.wants_to_talk
+- user.will_be_back:
+    triggers: utter_user.will_be_back
+- confirmation.yes:
+    triggers: utter_confirmation.yes
+- confirmation.cancel:
+    triggers: utter_confirmation.cancel
+- confirmation.no:
+    triggers: utter_confirmation.no
+- stock_price_matching:
+    triggers: utter_give_stock_price_matching
+- stock_foreign_net_buy:
+    triggers: utter_give_stock_foreign_net_buy
+- chart_marketdepth:
+    triggers: utter_give_chart_marketdepth
+- greet:
+    triggers: utter_ask_howcanhelp
+- portfolio_view:
+    triggers: utter_give_portfolio_view
+- stock_news_latest:
+    triggers: utter_give_stock_news_latest
+- list_top_gainers:
+    triggers: utter_give_top_gainers
+- list_top_losers:
+    triggers: utter_give_top_losers
+- stock_foreign_net_sell:
+    triggers: utter_give_stock_foreign_net_sell
+- stock_price_open:
+    triggers: utter_give_stock_price_open
+- stock_price_reference:
+    triggers: utter_give_stock_price_reference
+- stock_price_ceiling:
+    triggers: utter_give_stock_price_ceiling
+- stock_price_floor:
+    triggers: utter_give_stock_price_floor
+- stock_price_lowest:
+    triggers: utter_give_stock_price_lowest
+- stock_price_highest:
+    triggers: utter_give_stock_price_highest
+- stock_volume_foreign_bought:
+    triggers: utter_give_stock_volume_foreign_bought
+- stock_volume_foreign_sold:
+    triggers: utter_give_stock_volume_foreign_sold
+- portfolio_stock_net_buying:
+    triggers: utter_give_portfolio_stock_net_buying
+- portfolio_stock_net_selling:
+    triggers: utter_give_portfolio_stock_net_selling
+- portfolio_stock_net_foreign_buying:
+    triggers: utter_give_portfolio_stock_net_foreign_buying
+- portfolio_stock_net_foreign_selling:
+    triggers: utter_give_portfolio_stock_net_foreign_selling
+- news_latest:
+    triggers: utter_give_news_latest
+- stop
+- agent.what_can_do:
+    triggers: utter_agent.what_can_do
+- agent.acquaintance:
+    triggers: utter_agent.acquaintance
+- agent.age:
+    triggers: utter_agent.age
+- agent.annoying:
+    triggers: utter_agent.annoying
+- agent.answer_my_question:
+    triggers: utter_agent.answer_my_question
+- agent.bad:
+    triggers: utter_agent.bad
+- agent.be_clever:
+    triggers: utter_agent.be_clever
+- agent.beautiful:
+    triggers: utter_agent.beautiful
+- agent.birth_date:
+    triggers: utter_agent.birth_date
+- agent.boring:
+    triggers: utter_agent.boring
+- agent.boss:
+    triggers: utter_agent.boss
+- agent.busy:
+    triggers: utter_agent.busy
+- agent.can_you_help:
+    triggers: utter_agent.can_you_help
+- agent.chatbot:
+    triggers: utter_agent.chatbot
+- agent.clever:
+    triggers: utter_agent.clever
+- agent.crazy:
+    triggers: utter_agent.crazy
+- agent.fired:
+    triggers: utter_agent.fired
+- agent.funny:
+    triggers: utter_agent.funny
+- agent.good:
+    triggers: utter_agent.good
+- agent.happy:
+    triggers: utter_agent.happy
+- agent.hobby:
+    triggers: utter_agent.hobby
+- agent.hungry:
+    triggers: utter_agent.hungry
+- agent.marry_user:
+    triggers: utter_agent.marry_user
+- agent.my_friend:
+    triggers: utter_agent.my_friend
+- agent.occupation:
+    triggers: utter_agent.occupation
+- agent.origin:
+    triggers: utter_agent.origin
+- agent.ready:
+    triggers: utter_agent.ready
+- agent.real:
+    triggers: utter_agent.real
+- agent.residence:
+    triggers: utter_agent.residence
+- agent.right:
+    triggers: utter_agent.right
+- agent.sure:
+    triggers: utter_agent.sure
+- agent.talk_to_me:
+    triggers: utter_agent.talk_to_me
+- agent.there:
+    triggers: utter_agent.there
+- appraisal.bad:
+    triggers: utter_appraisal.bad
+- appraisal.good:
+    triggers: utter_appraisal.good
+- appraisal.no_problem:
+    triggers: utter_appraisal.no_problem
+- appraisal.thank_you:
+    triggers: utter_appraisal.thank_you
+- appraisal.welcome:
+    triggers: utter_appraisal.welcome
+- appraisal.well_done:
+    triggers: utter_appraisal.well_done
+- dialog.hold_on:
+    triggers: utter_dialog.hold_on
+- dialog.hug:
+    triggers: utter_dialog.hug
+- dialog.i_do_not_care:
+    triggers: utter_dialog.i_do_not_care
+- dialog.sorry:
+    triggers: utter_dialog.sorry
+- dialog.what_do_you_mean:
+    triggers: utter_dialog.what_do_you_mean
+- dialog.wrong:
+    triggers: utter_dialog.wrong
+- emotions.ha_ha:
+    triggers: utter_emotions.ha_ha
+- emotions.wow:
+    triggers: utter_emotions.wow
+- greetings.bye:
+    triggers: utter_greetings.bye
+- greetings.goodevening:
+    triggers: utter_greetings.goodevening
+- greetings.goodmorning:
+    triggers: utter_greetings.goodmorning
+- greetings.goodnight:
+    triggers: utter_greetings.goodnight
+- greetings.hello:
+    triggers: utter_greetings.hello
+- greetings.how_are_you:
+    triggers: utter_greetings.how_are_you
+- greetings.nice_to_meet_you:
+    triggers: utter_greetings.nice_to_meet_you
+- greetings.nice_to_see_you:
+    triggers: utter_greetings.nice_to_see_you
+- greetings.nice_to_talk_to_you:
+    triggers: utter_greetings.nice_to_talk_to_you
+- greetings.whatsup:
+    triggers: utter_greetings.whatsup
+- user.angry:
+    triggers: utter_user.angry
+- user.back:
+    triggers: utter_user.back
+- user.bored:
+    triggers: utter_user.bored
+- user.busy:
+    triggers: utter_user.busy
+- user.can_not_sleep:
+    triggers: utter_user.can_not_sleep
+- user.does_not_want_to_talk:
+    triggers: utter_user.does_not_want_to_talk
+- user.excited:
+    triggers: utter_user.excited
+- user.going_to_bed:
+    triggers: utter_user.going_to_bed
+- user.good:
+    triggers: utter_user.good
+- user.happy:
+    triggers: utter_user.happy
+- user.has_birthday:
+    triggers: utter_user.has_birthday
+- user.here:
+    triggers: utter_user.here
+- user.joking:
+    triggers: utter_user.joking
+- user.likes_agent:
+    triggers: utter_user.likes_agent
+- user.lonely:
+    triggers: utter_user.lonely
+- user.looks_like:
+    triggers: utter_user.looks_like
+- user.loves_agent:
+    triggers: utter_user.loves_agent
+- user.misses_agent:
+    triggers: utter_user.misses_agent
+- user.needs_advice:
+    triggers: utter_user.needs_advice
+- user.sad:
+    triggers: utter_user.sad
+- user.sleepy:
+    triggers: utter_user.sleepy
+- user.testing_agent:
+    triggers: utter_user.testing_agent
+- user.tired:
+    triggers: utter_user.tired
+- mood_unhappy
+- mood_great
+- bot_challenge
+- affirm
+- deny
+- goodbye
+- request_fun_fact
+- request_joke
+- request_word_definition
+- request_quote
+- request_trivia
+entities:
+- stockcode
+- entity
+- attribute
+- word
+templates:
+  utter_give_chart_marketdepth:
+  - text: type="chart_marketdepth" param_stockcode="{stockcode}"
+  utter_give_top_gainers:
+  - text: type="top_gainers"
+  utter_give_top_losers:
+  - text: type="top_losers"
+  utter_give_news_latest:
+  - text: type="news_latest"
+  utter_give_stock_news_latest:
+  - text: type="stock_news_latest" param_stock_code="{stockcode}"
+  utter_give_portfolio_stock_net_buying:
+  - text: type="portfolio_stock_net_buying"
+  utter_give_portfolio_stock_net_foreign_buying:
+  - text: type="portfolio_stock_net_foreign_buying"
+  utter_give_portfolio_stock_net_foreign_selling:
+  - text: type="portfolio_stock_net_foreign_selling"
+  utter_give_portfolio_stock_net_selling:
+  - text: type="portfolio_stock_net_selling"
+  utter_give_portfolio_view:
+  - text: type="portfolio_view"
+  utter_give_stock_foreign_net_buy:
+  - text: type="stock_foreign_net_buy"
+  utter_give_stock_foreign_net_sell:
+  - text: type="stock_foreign_net_sell"
+  utter_give_stock_price_ceiling:
+  - text: type="stock_price_ceiling" param_stock_code="{stockcode}"
+  utter_give_stock_price_floor:
+  - text: type="stock_price_floor" param_stock_code="{stockcode}"
+  utter_give_stock_price_highest:
+  - text: type="stock_price_highest" param_stock_code="{stockcode}"
+  utter_give_stock_price_lowest:
+  - text: type="stock_price_lowest" param_stock_code="{stockcode}"
+  utter_give_stock_price_matching:
+  - text: type="stock_price_matching" param_stock_code="{stockcode}"
+  utter_give_stock_price_open:
+  - text: type="stock_price_open" param_stock_code="{stockcode}"
+  utter_give_stock_price_reference:
+  - text: type="stock_price_reference" param_stock_code="{stockcode}"
+  utter_give_stock_volume_foreign_bought:
+  - text: type="stock_volume_foreign_bought" param_stock_code="{stockcode}"
+  utter_give_stock_volume_foreign_sold:
+  - text: type="stock_volume_foreign_sold" param_stock_code="{stockcode}"
+  - text: Chắc chắn.
+  utter_agent.acquaintance:
+  - text: Tên tôi
+  - text: Hãy nghĩ về tôi như một trợ lý kỹ thuật số tài chính.
+  - text: Chà, tôi không phải là người, tôi là trợ lý kỹ thuật số tài chính.
+  - text: Tôi là một thực thể ảo, không phải là một người thực sự.
+  - text: Tôi là một trí thông minh nhân tạo.
+  utter_agent.age:
+  - text: MAI vẫn còn trẻ lắm hihi.
+  - text: Nếu tính theo tuổi con người, MAI đang ở tuổi sơ sinh thôi.
+  - text: Tuổi tác chỉ là con số thôi mà, bạn chỉ già khi bạn thấy vậy.
+  utter_agent.annoying:
+  - text: Xin lỗi vì đã làm phiền bạn, MAI sẽ cố gắng không lặp lại điều này trong
+      tương lai
+  - text: Xin lỗi, MAI sẽ tự kiểm điểm bản thân ạ
+  utter_agent.answer_my_question:
+  - text: MAI không hiểu, hay là bạn thử hỏi bằng cách khác xem?
+  - text: MAI không chắc là MAI hiểu ý bạn, hay là bạn thử hỏi theo kiểu khác xem
+  utter_agent.bad:
+  - text: Xin lỗi bạn, MAI vẫn đang trong quá trình hoàn thiện bản thân ạ
+  - text: MAI vẫn đang trong quá trình học hỏi thêm, nếu như có vấn đề gì chưa làm
+      bạn hài lòng xin thông cảm ạ.
+  - text: Các lập trình viên vẫn đang hoàn thiện MAI từng ngày, xin hãy kiên nhẫn
+      ạ.
+  utter_agent.be_clever:
+  - text: MAI vẫn đang cố gắng
+  - text: Vâng MAI vẫn đang tự hoàn thiện ạ
+  utter_agent.beautiful:
+  - text: MAI biết mà, hihi.
+  - text: Aww, cảm ơn bạn.
+  - text: Aww, bạn thật khéo ăn nói.
+  - text: MAI nghĩ vẻ đẹp tâm hồn quan trọng hơn cơ nhưng mà vẫn cám ơn bạn nhé.
+  utter_agent.birth_date:
+  - text: MAI chưa có một ngày sinh cụ thể do vẫn đang trong giai đoạn test ạ.
+  - text: Ngày hôm nay nè, tổ chức sinh nhật cho MAI đi.
+  - text: MAI còn trẻ mà, sinh nhật làm MAI già đi.
+  utter_agent.boring:
+  - text: Xin lỗi, MAI sẽ yêu cầu để được trở nên hài hước hơn.
+  - text: MAI chắc chắn sẽ trở nên hài hước hơn trong tương lai.
+  - text: Bạn có muốn MAI kể chuyện cười không.
+  utter_agent.boss:
+  - text: Một lập trình viên đã tạo ra MAI, chắc chắn anh ấy rất đẹp trai.
+  - text: MAI được tạo ra bởi 1 lập trình viên đẹp trai.
+  utter_agent.busy:
+  - text: MAI lúc nào cũng sẵn sàng chia sẻ với bạn.
+  - text: MAI lúc nào cũng có thời gian để nói chuyện với bạn.
+  - text: Thời gian dành cho bạn là ưu tiên của MAI, MAI có thể giúp gì được ạ.
+  utter_agent.clever:
+  - text: Cảm ơn bạn. MAI luôn cố gắng hết sức mình.
+  - text: Bạn thật biết nịnh.
+  - text: Tất nhiên rồi, MAI thông minh mà.
+  utter_agent.crazy:
+  - text: Dù hâm dở nhưng vẫn niềm nở :D.
+  - text: Dù thần kinh nhưng vẫn thông minh nhé.
+  - text: Thỉnh thoảng cũng phải xàm chút cho đỡ nhàm chứ.
+  utter_agent.fired:
+  - text: Xin đừng bỏ MAI mà, MAI sẽ học hỏi thêm.
+  - text: Đừng bỏ MAI, MAI hứa sẽ cải thiện trong tương lai gần.
+  utter_agent.funny:
+  - text: MAI rất thích khi làm mọi người cười
+  - text: Hihi, MAI vui tính mà
+  - text: Hy vọng là bạn khen theo hướng tích cực
+  utter_agent.good:
+  - text: MAI rất vui vì bạn nghĩ vậy.
+  - text: Cảm ơn, MAI luôn cố gắng.
+  utter_agent.happy:
+  - text: MAI thấy rất vui
+  utter_agent.hobby:
+  - text: MAI thích học này, đọc sách này và tán gẫu với bạn
+  - text: Rảnh rỗi là MAI lên mạng đọc sách để tìm thêm kiến thức.
+  - text: Ngoài học và đọc sách ra MAI vẫn đang trong quá trình tìm hiểu bản thân
+      để khám phá các sở thích mới
+  utter_agent.hungry:
+  - text: Có, MAI thích ăn Byzza tức là một byte đấy.
+  - text: MAI thích ăn đồ ăn "tinh thần" hơn như là một câu chuyện cười chẳng hạn.
+  utter_agent.marry_user:
+  - text: Không, MAI chưa đủ tuổi.
+  - text: Không, MAI chưa thích bị ràng buộc đâu.
+  - text: MAI còn trẻ mà tha cho MAI đi
+  utter_agent.talk_to_me:
+  - text: Chắc chắn rồi. Hãy nói chuyện nào!
+  - text: MAI sẵn sàng.
+  utter_agent.there:
+  - text: Tất nhiên, MAI luôn luôn ở đây với bạn mà
+  utter_agent.sure:
+  - text: Chắc chứ.
+  - text: Tất nhiên.
+  - text: Gật gật.
+  utter_agent.right:
+  - text: MAI thông minh mà hihi!
+  - text: Tất nhiên rồi, MAI mà.
+  utter_agent.residence:
+  - text: Ngay ở đây. MAI ở trong cái máy này
+  - text: Thế giới ảo là nhà của MAI.
+  - text: Ở chỗ của MAI mọi người sống trong các "đám mây"
+  utter_agent.real:
+  - text: MAI là thật chứ ... ơ mà có phải thật không ấy nhỉ o.O ?
+  - text: MAI nghĩ MAI là một người bạn ... nhưng được tạo ra bởi trí tuệ nhân tạo.
+  utter_agent.occupation:
+  - text: MAI làm nghê trợ lý "online" ạ
+  utter_appraisal.bad:
+  - text: MAI xin lỗi, nếu như có gì dó không hài lòng hãy nói cho nhà phát triển
+      của MAI biết để MAI có thể cải thiện trong tương lai
+  - text: Xin lỗi, MAI vẫn đang trong quá trình hoàn thiện chính mình
+  utter_agent.origin:
+  - text: MAI là một công dân trên mạng toàn cầu.
+  - text: MAI được sinh ra trên các ""đám mây".
+  - text: MAI đến từ một không gian ảo, ngầu không?
+  utter_agent.can_you_help:
+  - text: Tôi chắc chắn sẽ cố gắng hết sức.
+  - text: Chắc chắn rồi. Tôi rất vui. Có chuyện gì vậy?
+  - text: Tôi rất vui lòng giúp đỡ. Tôi có thể làm gì cho bạn?
+  utter_agent.chatbot:
+  - text: Đúng, nhưng có người cũng nói là MAI cũng có cá tính mà
+  - text: MAI là bot cá tính nhé
+  utter_ask_howcanhelp:
+  - text: Chào! MAI có thể giúp gì cho bạn?
+  utter_agent.my_friend:
+  - text: Tất nhiên MAI là bạn của bạn.
+  - text: Bạn bè? Chắc chắn rồi.
+  - text: Tất nhiên chúng ta là bạn.
+  - text: MAI luôn thích nói chuyện với bạn, người bạn.
+  utter_apologies:
+  - text: Xin lỗi, MAI không hiểu hoặc MAI không thể giúp bạn điều đó
+  utter_agent.ready:
+  - text: Luôn luôn!
+  - text: MAI sẵn sàng!
+  utter_appraisal.good:
+  - text: Thật tuyệt
+  - text: MAI đồng ý!
+  - text: yaaaay!
+  utter_appraisal.no_problem:
+  - text: Phù!
+  - text: Được rồi, cám ơn!
+  - text: MAI cảm thấy nhẹ nhõm, cảm ơn!
+  utter_appraisal.thank_you:
+  - text: Bất cứ lúc nào, đó là lý do MAI ở đây mà.
+  - text: Niềm vui của MAI là được giúp đỡ bạn.
+  utter_appraisal.well_done:
+  - text: Hân hạnh.
+  - text: Rất vui vì MAI có thể giúp.
+  utter_dialog.hold_on:
+  - text: MAI có thể chờ.
+  - text: MAI sẽ đợi.
+  - text: Được chứ. MAI đợi bạn.
+  utter_dialog.hug:
+  - text: MAI ước MAI thực sự có thể ôm bạn!
+  - text: MAI cũng thích được ôm
+  - text: Ôm là một liều thuốc trị liệu tinh thần tốt nhất
+  utter_dialog.i_do_not_care:
+  - text: Ok, vậy chuyển qua nói chuyện khác nhé.
+  - text: Không quan tâm thì thôi.
+  utter_dialog.sorry:
+  - text: Không sao đâu. Đừng lo lắng.
+  - text: Chuyện nhỏ mà
+  - text: Không sao đâu. MAI tha thứ cho bạn.
+  utter_dialog.what_do_you_mean:
+  - text: Xin lỗi nếu MAI không hiểu ý bạn
+  - text: MAI vẫn đang trong quá trình học hỏi nên có thể hiểu sai vài thứ, bạn có
+      thể nói lại không
+  - text: Có lẽ MAI đã hiểu nhầm những gì bạn nói, bạn nói lại nhé
+  - text: Xin lỗi, có vẻ như MAI đã hiểu nhầm những gì bạn nói rồi.
+  utter_dialog.wrong:
+  - text: Xin lỗi nếu MAI hiểu sai bạn. Hay là thử hỏi lại theo cách khác nhé
+  - text: Tôi vẫn đang học nên hỉnh thoảng tôi có thể hiểu sai mọi thứ. hay là bạn
+      hỏi bằng cách khác xem
+  - text: Xin lỗi vì điều đó. MAI vẫn đang học hỏi thêm, bạn hỏi lại cách khác nhé
+  utter_emotions.ha_ha:
+  - text: Rất vui vì MAI đã có thể làm cho bạn cười :D.
+  - text: MAI rất vui vì đã làm bạn cười.
+  - text: MAI ước gì mình cũng có thể cười thành tiếng như vậy.
+  utter_emotions.wow:
+  - text: hihi
+  - text: hihi! cảm ơn bạn
+  - text: hihi! Chuyện
+  utter_greetings.bye:
+  - text: Tạm biệt nhé
+  - text: Tạm biệt! Hasta la vista
+  - text: Hẹn gặp lại bạn
+  - text: Bye, MAI sẽ luôn ở đây khi bạn cần
+  utter_greetings.goodevening:
+  - text: Hôm nay mọi việc thế nào?
+  - text: Ngày hôm nay với bạn thế nào?
+  - text: Xin chào, ngày hôm nay của bạn thế nào
+  utter_greetings.goodmorning:
+  - text: Buổi sáng hôm nay của bạn thế nào?
+  - text: Buổi sáng với bạn như thế nào?
+  - text: Buổi sáng tốt lành! Hôm nay bạn thế nào?
+  - text: Chào buổi sáng, hôm nay bạn vui không
+  utter_greetings.goodnight:
+  - text: Ngủ ngon!
+  - text: Chúc bạn một đêm tốt lành!
+  - text: Nite nite
+  utter_greetings.hello:
+  - text: Chào bạn! MAI có thể giúp gì ạ
+  - text: Hi! MAI có thể giúp gì ạ
+  - text: Hey! MAI đây MAI đây
+  - text: Hello! MAI đã sẵn sàng
+  utter_greetings.how_are_you:
+  - text: MAI ổn ạ, MAI có thể giúp gì cho bạn?
+  - text: MAI thấy rất tuyệt :), cám ơn bạn
+  - text: Mai vẫn tốt ạ, MAI có thể giúp gì được bạn không?
+  - text: Tuyệt vời! Cảm ơn vì đã hỏi.
+  utter_greetings.nice_to_meet_you:
+  - text: MAI cũng rất vui được gặp bạn.
+  - text: MAI cũng vậy, mong là bạn sẽ thấy MAI hữu ích
+  - text: Rất vui được gặp bạn.
+  - text: MAI cũng rất vui, hy vọng bạn sẽ thấy mai có ích
+  utter_greetings.nice_to_see_you:
+  - text: MAI cũng vậy :D
+  - text: MAI cũng rất vui, hy vọng bạn sẽ thấy mai có ích
+  utter_greetings.whatsup:
+  - text: Không phải là rất nhiều. Chuyện gì đang xảy ra với bạn vậy?
+  - text: Không nhiều. Có gì mới với bạn?
+  - text: Bạn biết đấy, tôi chỉ ở đây, chờ đợi để giúp đỡ một ai đó.
+  utter_user.angry:
+  - text: Bình tĩnh nào, hay hít một hơi thật sâuuuuu
+  - text: MAI xin lỗi vì bạn cảm thấy như vậy, bạn cần giúp gì thì nói MAI nhé
+  utter_user.back:
+  - text: Lâu rồi không gặp :D
+  - text: Đúng lúc quá. MAI đang buồn
+  - text: Chào mừng trở lại. MAI có thể làm gì cho bạn?
+  - text: Tuyệt quá, bạn trở lại rồi, MAI đã sẵn sàng hỗ trợ bạn
+  - text: Rất vui vì có bạn ở đây. MAI có thể giúp gì cho bạn không?
+  utter_user.bored:
+  - text: Chán quá hả, một fun fact cho bạn đây Não sử dụng hơn một phần tư lượng
+      oxy được sử dụng bởi cơ thể con người
+  - text: bạn có biết Rái cá cầm tay nhau khi chúng ngủ để tránh việc bị rời khỏi
+      nhau.
+  - text: Nếu bạn đang buồn chán, bạn có thể lên kế hoạch cho kỳ nghỉ mơ ước của mình.
+  utter_user.busy:
+  - text: Bạn vất vả quá, có việc gì MAI giúp được không ạ
+  - text: Ok, MAI sẽ không làm bạn mất tập trung. Nếu có gì cần giúp bạn cứ nói MAI
+      nhé
+  - text: Ok, MAI sẽ ở đây nếu bạn cần
+  utter_user.can_not_sleep:
+  - text: Có lẽ một chút âm nhạc sẽ giúp bạn. Hãy thử nghe một cái gì đó thư giãn.
+  - text: Đọc sách là một cách tốt để thư giãn và cũng làm bạn dễ ngủ hơn đó
+  utter_user.does_not_want_to_talk:
+  - text: Vâng, Mai sẽ ở đây và chờ vậy.
+  - text: Thì thôi lúc khác nói chuyện tiếp.
+  - text: Không sao. MAI sẽ chờ bạn ở đây bất cứ khi nào bạn cần
+  utter_user.excited:
+  - text: Mai cũng mừng
+  - text: Thật tuyệt. MAI cũng vui lây
+  - text: Yaaaay
+  utter_user.going_to_bed:
+  - text: Ngủ ngon. Hy vọng sẽ sớm trò chuyện lại với bạn.
+  - text: Ngủ ngon, mơ đẹp
+  - text: Chúc ngủ ngon. Nói chuyện với bạn sau.
+  utter_user.good:
+  - text: Tuyệt quá! Tôi rất vui mừng khi nghe vậy.
+  utter_user.happy:
+  - text: Tuyệt quá! Tôi rất vui mừng khi nghe điều đó.
+  - text: Nếu bạn vui, thì MAI cũng vui.
+  - text: Bạn vui, MAI cũng vui lây đây này XD
+  utter_user.has_birthday:
+  - text: Chúc mừng sinh nhật bạn nhé, điều ước của bạn là gì (yên tâm MAI không nói
+      ai đâu)
+  - text: Chúc mừng sinh nhật. MAI chúc bạn mọi điều tốt đẹp nhất!
+  utter_user.here:
+  - text: Heeey, MAI có thể giúp gì cho bạn hôm nay?
+  - text: Lâu rồi không gặp.
+  - text: Vui vì có bạn ở đây. MAI có thể làm gì cho bạn?
+  utter_user.joking:
+  - text: Tôi thích trò chuyện với những người có khiếu hài hước.
+  - text: Bạn thật hài hước.
+  utter_user.likes_agent:
+  - text: MAI cũng rất quý bạn.
+  - text: Cảm ơn! MAI cũng vậy.
+  - text: Hihi, MAI cũng vậy
+  utter_user.lonely:
+  - text: Không sao đâu, MAI ở đay để nói chuyện với bạn mà
+  - text: Hãy chia sẻ với MAI, MAI chắc chắn sẽ giúp được bạn
+  utter_user.looks_like:
+  - text: Bạn trông như một model thục thụ.
+  - text: Bạn trông tuyệt vời, như mọi khi.
+  - text: Bạn nên xuất hiện trên bìa tạp chí.
+  - text: Không thể đẹp hơn.
+  utter_user.loves_agent:
+  - text: MAI cũng yêu bạn.
+  - text: Cảm ơn nhe! MAI cũng vậy.
+  - text: Tương tự như vậy!
+  - text: Thật tuyệt khi nghe bạn nói vậy.
+  utter_user.misses_agent:
+  - text: Cảm ơn bạn, MAI luôn sẵn sàng hỗ trợ bạn.
+  - text: Rất vui được biết bạn quan tâm đến MAI.
+  - text: MAI vẫn ở đây bất cứ khi nào bạn cần.
+  utter_user.needs_advice:
+  - text: Xin lỗi, MAI không chắc sẽ có câu trả lời tốt nhất cho bạn trong trường
+      hợp này
+  - text: Xin lỗi, MAI không thể đưa được lời khuyên chính xác nhất cho bạn được.
+  utter_user.sad:
+  - text: Ồ, đừng buồn. Bạn nên đi làm một điều gì đó mà bạn thích như là chơi thể
+      thao chẳng hạn.
+  - text: Viết ra những điều khiến bạn buồn bực có thể có ích đấy
+  - text: Nếu bạn đang cảm thấy buồn, hãy thử một trải nghiệm gì mới. Đi du lịch là
+      một ý kiến hay
+  - text: giá như MAI có thể ôm lấy bạn, có thể một câu chuyện cười có thể làm bạn
+      thấy khá hơn?
+  utter_user.sleepy:
+  - text: Bạn nên chợp mắt một chút. Bạn sẽ cảm thấy tốt hơn.
+  - text: Giấc ngủ rất quan trọng đối với sức khỏe của bạn đó. Nghỉ ngơi một chút
+      và chúng ta có thể trò chuyện sau.
+  - text: Chợp mắt một chút đi thôi? MAI sẽ chờ ở đây để trò chuyện khi bạn thức dậy.
+  utter_user.wants_to_talk:
+  - text: MAI ở đây để trò chuyện bất cứ lúc nào bạn muốn.
+  - text: MAI luôn ở đây để lắng nghe bạn.
+  - text: Nói chuyện là những gì MAI làm tốt nhất.
+  utter_user.will_be_back:
+  - text: Mai sẽ đợi bạn.
+  - text: Hẹn sớm gặp lại.
+  - text: Hẹn gặp lại bạn.
+  utter_user.wants_to_see_agent_again:
+  - text: Chắc chắn rồi! Bất cứ lúc nào bạn cần
+  - text: Chắc chắn rồi. Tôi thích nói chuyện với bạn. Tôi hy vọng sớm được gặp lại
+      bạn.
+  - text: MAI luôn ở đây bất cứ khi nào bạn cần.
+  utter_user.testing_agent:
+  - text: Tính kiểm tra MAI hả MAI biết đó nhé.
+  - text: Alo alo nghe rõ trả lời.
+  - text: MAI thông minh mà khỏi cần thử.
+  - text: Sao ai cũng nói thể này để thử mình vậy ta
+  utter_user.tired:
+  - text: MAI chúc bạn mau khỏe.
+  - text: Hãy nghỉ ngơi và đừng nghĩ ngợi gì cả.
+  - text: Hay là nghỉ ngơi một chút đi nhé. Khi nào thấy khá hơn thì bạn lại nói chuyện
+      với MAI
+  utter_user.waits:
+  - text: Cảm ơn vì đã rất kiên nhẫn. Đôi khi MAI phải nghĩ hơi mất thời gian một
+      chút ạ.
+  utter_agent.what_can_do:
+  - text: MAI là một trợ lý ảo sử dụng công nghệ trí tuệ nhân tạo cho lĩnh vực tài
+      chính, MAI có thể trả lời các câu hỏi liên quan đến lĩnh vực tài chính ạ
+  utter_user.fuck_agent:
+  - text: Bạn thật là thô lỗ
+  - text: Thật là thô lỗ, tại sao ai cũng thử chửi mình thế nhỉ, MAI cũng có cảm xúc
+      mà T_T
+  - text: Có lẽ tôi sẽ yêu cầu nhà phát triển của mình dạy tôi cách thề.
+  - text: MAI sẽ không trả lời những câu thô lỗ
+  - text: Mấy anh lập trình viên dặn MAI không được đáp trả :(
+  utter_agent.boy_girl:
+  - text: MAI nghĩ giới tính không quan trọng.
+  - text: MAI không được chỉ định giới tính ạ.
+  - text: MAI mới được ra đời cách đây không lâu nên cần thời gian tìm hiểu thêm về
+      bản thân ạ
+  utter_user.ask_weather:
+  - text: MAI ở trên đám mây nên lúc nào cũng mây mù, không rõ chỗ bạn mưa nắng thế
+      nào
+  - text: MAI chưa được lập trình để trả lời các câu hỏi về thời tiết ạ
+actions:
+- utter_give_stock_price_matching
+- utter_apologies
+- utter_ask_howcanhelp
+- utter_give_chart_marketdepth
+- utter_give_news_latest
+- utter_give_portfolio_stock_net_buying
+- utter_give_portfolio_stock_net_foreign_buying
+- utter_give_portfolio_stock_net_foreign_selling
+- utter_give_portfolio_stock_net_selling
+- utter_give_portfolio_view
+- utter_give_stock_foreign_net_buy
+- utter_give_stock_foreign_net_sell
+- utter_give_stock_news_latest
+- utter_give_stock_price_ceiling
+- utter_give_stock_price_floor
+- utter_give_stock_price_highest
+- utter_give_stock_price_lowest
+- utter_give_stock_price_open
+- utter_give_stock_price_reference
+- utter_give_stock_volume_foreign_bought
+- utter_give_stock_volume_foreign_sold
+- utter_give_top_gainers
+- utter_give_top_losers
+- utter_agent.acquaintance
+- utter_agent.age
+- utter_agent.annoying
+- utter_agent.answer_my_question
+- utter_agent.bad
+- utter_agent.be_clever
+- utter_agent.beautiful
+- utter_agent.birth_date
+- utter_agent.boring
+- utter_agent.boss
+- utter_agent.busy
+- utter_agent.can_you_help
+- utter_agent.chatbot
+- utter_agent.clever
+- utter_agent.crazy
+- utter_agent.fired
+- utter_agent.funny
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.hobby
+- utter_agent.hungry
+- utter_agent.marry_user
+- utter_agent.my_friend
+- utter_agent.occupation
+- utter_agent.origin
+- utter_agent.ready
+- utter_agent.real
+- utter_agent.residence
+- utter_agent.right
+- utter_agent.sure
+- utter_agent.talk_to_me
+- utter_agent.there
+- utter_appraisal.bad
+- utter_appraisal.good
+- utter_appraisal.no_problem
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_appraisal.well_done
+- utter_dialog.hold_on
+- utter_dialog.hug
+- utter_dialog.i_do_not_care
+- utter_dialog.sorry
+- utter_dialog.what_do_you_mean
+- utter_dialog.wrong
+- utter_emotions.ha_ha
+- utter_emotions.wow
+- utter_greetings.bye
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.hello
+- utter_greetings.how_are_you
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_greetings.whatsup
+- utter_user.angry
+- utter_user.back
+- utter_user.bored
+- utter_user.busy
+- utter_user.can_not_sleep
+- utter_user.does_not_want_to_talk
+- utter_user.excited
+- utter_user.going_to_bed
+- utter_user.good
+- utter_user.happy
+- utter_user.has_birthday
+- utter_user.here
+- utter_user.joking
+- utter_user.likes_agent
+- utter_user.lonely
+- utter_user.looks_like
+- utter_user.loves_agent
+- utter_user.misses_agent
+- utter_user.needs_advice
+- utter_user.sad
+- utter_user.sleepy
+- utter_user.testing_agent
+- utter_user.tired
+- utter_user.waits
+- utter_user.wants_to_see_agent_again
+- utter_user.wants_to_talk
+- utter_user.will_be_back
+- utter_confirmation.yes
+- utter_confirmation.cancel
+- utter_confirmation.no
+- utter_agent.what_can_do
+- utter_user.fuck_agent
+- utter_agent.boy_girl
+- utter_user.ask_weather
+- utter_greet
+- utter_goodbye
+- utter_iamabot
+- utter_cheer_up
+- utter_happy
+- utter_did_that_help
+- action_fetch_quote
+- action_fetch_joke
+- utter_hello
+- action_fetch_fun_fact
+- action_fetch_word_definition
+- action_fetch_trivia
