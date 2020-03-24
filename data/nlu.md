@@ -2326,7 +2326,7 @@
 - cho tôi một lời khuyên khôn ngoan
 - tôi cần lời khuyên
 - lời khuyên nào
-- bạn có lời khuyên nào cho tôi không
+## lookup: location- bạn có lời khuyên nào cho tôi không
 - tư vấn cho tôi
 - tôi nên làm gì
 - tôi có thể xin lời khuyên của bạn
@@ -2730,3 +2730,6 @@
 - mã
 - co phieu
 - chung khoan
+
+## lookup: stockcodes
+data/lookups/stockcodes.txt
