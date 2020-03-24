@@ -11,7 +11,6 @@
 - nói tôi biết giá dư mua dư bán của thị trường
 - cho tôi biểu đồ độ sâu của thị trường
 - cho tôi xem biểu đồ độ sâu thị trường của
-- biểu đồ độ sâu thị trường của
 - cho tôi biết biểu đồ dộ sâu của thị trường
 
 ## intent:greet
@@ -20,18 +19,11 @@
 - chào buổi sáng
 - chào buổi tối
 - này bạn
-- xin chào
-- chào
 - hello
 - hi
 - hey
-- xin chào
-- xin chào
-- xin chào
-- chào buổi sáng
 - dạo này khỏe không
 - hú
-- này bạn
 - có chuyện gì thế
 - yo
 - yo yo yo
@@ -43,7 +35,6 @@
 - hey mai
 - chào mai
 - hello mai
-- hey mai
 
 ## intent:list_top_gainers
 - cho tôi xem những cổ phiếu tăng giá cao nhất ngày hôm nay
@@ -186,7 +177,6 @@
 - Xem danh mục đầu tư
 - cho tôi xem danh mục đầu tư của tôi
 - tôi sở hữu cổ phiếu nào
-- tôi sở hữu cổ phiếu nào
 - hiển thị danh mục
 - mã sở hữu
 - chứng khoán sở hữu
@@ -201,8 +191,6 @@
 - cho tôi biết về cổ phiếu mua ròng nước ngoài
 - cho tôi biết về những cổ phiếu mà các nhà đầu tư nước ngoài mua ròng
 - cổ phiếu nào hiện đang mua ròng từ các nhà đầu tư nước ngoài
-- cổ phiếu nào hiện đang mua ròng từ các nhà đầu tư nước ngoài
-- Mã chứng khoán với nhà đầu tư nước ngoài mua ròng là gì
 - Mã chứng khoán với nhà đầu tư nước ngoài mua ròng là gì
 - chứng khoán nào đang được nhà đầu tư nước ngoài mua ròng
 - chứng khoán nào đang mua ròng bời nước ngoài
@@ -344,7 +332,6 @@
 - tuổi của bạn
 - bạn bao nhiêu tuổi
 - Tôi muốn biết tuổi của bạn
-- bạn bao nhiêu tuổi?
 - nói tôi biết bạn bao nhiêu tuổi
 - làm thế nào tôi có thể biết về tuổi của bạn
 - tôi muốn biết tuổi của bạn
@@ -376,7 +363,6 @@
 - bạn làm phiền tôi
 - bạn đang làm phiền tôi đấy
 - bạn đang khó chịu
-- bạn thật phiền phức
 - bạn quá phiền phức
 - bạn rất phiền phức
 - Tại sao bạn làm phiền tôi rất nhiều
@@ -428,18 +414,11 @@
 - bạn thật vô dụng
 - bạn thật kinh tởm
 - bạn đang lãng phí thời gian
-- bạn thật kinh tởm
 - bạn có khuyết điểm
 - bạn không tốt
-- bạn thật tệ
-- bạn thật tồi tệ
 - bạn không tuyệt
-- bạn không tốt
-- bạn thật tệ
-- bạn thật vô dụng
 - bạn thật là tồi tệ
 - bạn hoàn toàn vô dụng
-- bạn rất tệ
 - bạn thật lãng phí
 - bạn là một người xấu
 - bạn không phải là người tốt
@@ -448,7 +427,6 @@
 - bạn là người tồi tệ nhất
 - bạn là tồi tệ nhất cho đến giờ
 - bạn vô dụng
-- bạn không thú vị
 - bạn không thú vị
 - Bạn thật là vô tâm và ngu ngốc
 - tại sao bạn quá khập khiễng
@@ -493,7 +471,6 @@
 - Mai cần suy nghĩ nhiều hơn
 - đi học đi mai
 - em cần thông minh hơn
-- em cần học nhiều hơn
 - em cần có tinh thần học hỏi
 - mày cần học nhiều vào
 - mày cần đi học
@@ -518,10 +495,7 @@
 - bạn thật đáng yêu
 - bạn thật rực rỡ
 - bạn đẹp trai
-- bạn trông thật tuyệt
-- hôm nay bạn trông thật tuyệt
 - hôm nay bạn thật đẹp
-- bạn trông thật tuyệt
 - trông bạn rất đáng yêu
 - trông bạn thật xinh đẹp
 - nhìn bạn thật tuyệt
@@ -531,28 +505,18 @@
 - bạn  thực sự rất đẹp
 - bạn thật quyến rũ
 - Hôm nay bạn thật đẹp
-- bạn thật dễ thương
-- bạn thật lộng lẫy
 - anh thật là đẹp trai
-- bạn thật đẹp
 - bạn rất hấp dẫn
 - em rất đẹp
-- bạn rất dễ thương
 - bạn rất xinh đẹp
 - trông bạn tuyệt lắm
 - Trông bạn thật tuyệt
 - bạn trông thật tuyệt vời
 - bạn trông tuyệt đẹp
-- hôm nay bạn trông thật tuyệt
-- bạn trông thật tuyệt vời
 - bạn trông khá tốt
 - bạn trông quá đẹp
-- hôm nay bạn thật đẹp
 - nhìn bạn rất xinh
-- bạn trông thật tuyệt
 - Tôi thích cách bạn nhìn
-- hôm nay bạn trông thật tuyệt
-- bạn thật dễ thương
 - Bạn trông khá đấy
 - em xinh thật
 - sao bạn xinh vậy?
@@ -572,7 +536,6 @@
 - ngày sinh nhật của bạn
 - bạn sinh ra khi nào
 - bạn sinh vào ngày nào
-- khi nào bạn tổ chức sinh nhật
 - tôi có thể biết ngày sinh nhật của bạn không?
 - kể cho tôi nghe về sinh nhật của bạn
 - khi nào bạn được sinh ra
@@ -700,21 +663,15 @@
 - bạn biết rất nhiều
 - bạn biết rất nhiều thứ
 - bạn có nhiều kiến thức
-- bạn biết rất nhiều
 - bạn thông minh đến mức nào
 - bạn lanh lợi đến mức nào?
 - sao bạn thông minh vậy?
 - sao bạn tài giỏi vậy?
 - bạn thông minh
 - bạn có trình độ
-- bạn thực sự thông minh
-- bạn rất thông minh
 - bạn thật thông minh
 - bạn quá thông minh
-- bạn thật tài giỏi
-- bạn rất thông minh
 - bạn rất nhanh nhẹn
-- bạn thật thông minh
 - bạn là một thần đồng
 - bạn có trí nhớ lanh lợi
 - bạn có tài
@@ -791,7 +748,6 @@
 - Tôi đang tống cổ bạn khỏi đây
 - Tôi phải sa thải bạn
 - Tôi có thể sa thải bạn vì điều đó
-- Tôi sẽ sa thải bạn
 - đi chết đi
 - tôi cho bạn nghỉ việc
 - em nghỉ việc đi
@@ -809,7 +765,6 @@
 - bạn thật hài hước
 - bạn là một bot rất vui tính
 - bạn thực sự hài hước
-- bạn thật hài hước
 - bạn cực kỳ hài hước
 - Bạn vui tính
 - bạn là người vui tính nhất
@@ -849,13 +804,10 @@
 - bạn tuyệt vời
 - bạn thật tốt bụng
 - bạn thật tuyệt
-- bạn thật tuyệt vời
-- bạn thật tuyệt
 - bạn thực sự tốt
 - bạn rất tốt
 - bạn rất thú vị
 - bạn chỉ là siêu
-- bạn thật tuyệt vời
 - bạn thật là tuyệt
 - bạn đang rất ổn
 - bạn thật là giỏi
@@ -867,9 +819,6 @@
 - bạn quá tốt
 - bạn rất tuyệt
 - Bạn thật tốt bụng
-- bạn rất đáng yêu
-- bạn rất hữu ích
-- bạn thật tuyệt
 - bạn đã làm cho ngày của tôi
 - Bạn có thể làm được
 - bạn gần như là con người
@@ -1001,7 +950,6 @@
 - bạn có muốn trò chuyện với tôi không
 - bạn sẽ nói chuyện với tôi chứ
 - nói với tôi
-- bạn sẽ nói chuyện với tôi chứ
 - Bạn đang nói chuyện với tôi
 - bạn có thể nói chuyện với tôi không
 - bạn có thể nói với tôi không
@@ -1011,12 +959,9 @@
 - nói chuyện
 - trò chuyện với tôi
 - chỉ nói chuyện với tôi
-- nói với tôi
 - kể với tôi
 - nói chuyện với tôi
-- tại sao bạn không nói chuyện với tôi
 - bạn có thể nói với tôi
-- tại sao bạn không nói chuyện với tôi
 - tiết lộ bí mật
 - nói chuyện đi
 - hey nói gì đi
@@ -1029,7 +974,6 @@
 - bạn ở đây
 - bạn có ở gần tôi không
 - bạn có ở đây không?
-- bạn ở đây
 - bạn còn ở đó không
 - bạn đang ở đây?
 - bạn vẫn ở đó chứ?
@@ -1051,7 +995,6 @@
 - bạn có chắc chắn không?
 - bạn hoàn toàn cương quyết?
 - bạn chắc chứ?
-- bạn có chắc không?
 - bạn có thực sự cương quyết không?
 - chắc chưa
 - mày chắc không
@@ -1076,9 +1019,6 @@
 - đó là chính xác
 - điều đó đúng
 - đúng vậy
-- điều đó đúng
-- điều đó rất đúng
-- đúng rồi
 - điều đó rất đúng
 - bạn nói đúng
 - bạn rất đúng
@@ -1087,7 +1027,6 @@
 - Tôi biết điều đó đúng
 - đúng rồi đấy
 - em đúng đấy
-- đúng rồi
 - mai đúng rồi
 - mày đúng đấy
 
@@ -1105,17 +1044,10 @@
 - thành phố của bạn là gì
 - nơi cư trú của bạn là gì
 - thị trấn của bạn là gì
-- thành phố của bạn là gì
 - nhà bạn là gì
 - nhà bạn ở đâu
-- nơi ở của bạn
-- nhà bạn ở đâu
-- quê bạn ở đâu
 - Nhà của bạn ở đâu
-- bạn sống ở đâu
 - thành phố của bạn
-- thành phố của bạn
-- Quê bạn là gì?
 - bạn sống ở đâu?
 - quê em ở đâu
 - em sống ở đâu
@@ -1141,7 +1073,6 @@
 - Bạn có phải là con người thực sự?
 - bạn là một người thực sự
 - bạn không có thật
-- bạn có thật không
 - em có phải là người thật không
 - em có thật không
 - em có phải thật không thế
@@ -1166,9 +1097,7 @@
 - nơi bạn làm việc?
 - nơi làm việc của bạn?
 - Bạn làm nghề gì?
-- Bạn làm nghề gì?
 - Nghề nghiệp của bạn là gì?
-- Bạn làm nghề gì?
 - Bạn có công việc không?
 - Bạn đã tìm được việc chưa?
 - Bạn đã kiếm được một công việc chưa?
@@ -1188,7 +1117,6 @@
 - không đủ tốt
 - chẳng đâu vào đâu
 - điều đó thật tồi tệ
-- điều đó thật tồi tệ
 - thật tồi tệ
 - điều này thật tệ
 - không tốt
@@ -1203,15 +1131,12 @@
 - ghế gớm
 - ngu dốt
 - nó tệ
-- không tốt
 - Điều đó thật tệ
 - điều đó thật kinh khủng
 - đó là khập khiễng
 - điều đó không tốt
-- đó là khủng khiếp
 - điều đó thật tệ
 - điều này không tốt
-- quá tệ
 - rất tệ
 - gái hư
 - nó không tốt
@@ -1226,14 +1151,11 @@
 - nó thực sự tồi tệ
 - ý tưởng tồi
 - nó quá tệ
-- điều đó không tốt
 - nó không tốt lắm
-- không tốt
 - ồ điều đó không tốt
 - Không tốt lắm
 - nhảm
 - nó rất là tệ
-- nó quá tệ
 - tệ thực sự tệ
 - không ổn
 - Không có gì
@@ -1248,7 +1170,6 @@
 - Bạn đến từ đâu
 - mày đến từ đâu
 - Bạn từ đâu đến
-- bạn sinh ra ở đâu
 - bạn đến từ đâu
 - có phải bạn ở xa đây
 - quê hương của bạn là gì
@@ -1305,7 +1226,6 @@
 - hoàn hảo
 - xuất sắc
 - tuyệt vời
-- thật tuyệt
 - nó tốt
 - nó thật tuyệt vời
 - tốt
@@ -1320,7 +1240,6 @@
 - Điều đó rất tốt
 - thật sự tốt
 - nó ổn
-- nó tốt
 - Thật tuyệt vời
 - thật hoàn hảo
 - tốt hơn nhiều
@@ -1331,19 +1250,14 @@
 - nó thật tuyệt
 - hài lòng
 - khá tốt
-- rất tốt
 - lộng lẫy
 - thành thật
 - siêu
 - Siêu tuyệt vời
 - ngọt
 - tốt thật sự
-- rất tốt
 - điều đó thật tuyệt
-- nó thật tuyệt
 - điều đó thật tuyệt vời
-- nó thật tuyệt vời
-- điều đó thật tuyệt
 - cái đó thật dễ thương
 - điều đó khá tốt
 - thực sự là rất tốt đấy
@@ -1353,20 +1267,14 @@
 - thật tuyệt vời cảm ơn bạn
 - cái đó tốt hơn
 - nó thật đáng yêu
-- điều đó thật tuyệt
 - điều đó tốt hơn nhiều
-- bạn thật tốt
 - Không tệ
-- thật hoàn hảo
 - Đó là khá tốt
 - điều đó thực sự tốt
 - nó thật là tuyệt
 - bạn thật ngọt ngào
-- điều đó thật tuyệt
-- điều đó thật tuyệt vời
 - điều này thật tuyệt
 - điều này tốt
-- điều đó thật tuyệt
 - rất đẹp
 - rất rồi
 - Tuyệt vời
@@ -1375,22 +1283,13 @@
 - tốt cho bạn
 - thật tốt khi biết
 - rất vui khi nghe nó
-- rất tốt
-- bạn thật tốt
-- bạn thật ngọt ngào
 - nó đã tốt
 - ồ tốt
 - điều tốt
-- điều đó thật tốt
-- nó thật tuyệt
 - được rồi tốt
 - tốt rồi
 - không, không sao
-- thật tuyệt
-- rất đẹp
-- nó rất tốt
 - Tốt rồi
-- tốt cho bạn
 
 ## intent:appraisal.no_problem
 - đừng lo lắng
@@ -1399,7 +1298,6 @@
 - không có vấn đề gì
 - chắc chắn không có vấn đề
 - không có vấn đề gì về điều đó
-- đừng lo lắng
 - đừng lo lắng không có vấn đề gì
 - Tôi không có vấn đề với điều đó
 - Không phải là một vấn đề gì cả.
@@ -1440,7 +1338,6 @@
 - không, cảm ơn bạn
 - hoàn hảo cảm ơn bạn
 - vậy, cám ơn
-- cũng cảm ơn
 - thnx
 - cám ơn
 - tqsm
@@ -1451,7 +1348,6 @@
 - thank you
 - thank mai
 - cam on em
-- cám ơn
 
 ## intent:appraisal.well_done
 - làm tốt lắm
@@ -1528,7 +1424,6 @@
 
 ## intent:dialog.sorry
 - xin lỗi
-- xin lỗi
 - Tôi xin lỗi
 - xin
 - Tôi xin lỗi bạn
@@ -1536,10 +1431,8 @@
 - lời xin lỗi của tôi
 - lời xin lỗi
 - xin lỗi tôi
-- lời xin lỗi
 - tha lỗi
 - Tôi khẩn cầu bạn tha lỗi
-- tha lỗi
 - Tôi đã nói xin lỗi
 - Tôi thực sự xin lỗi
 - Tha thứ cho tôi
@@ -1580,7 +1473,6 @@
 - nó không đúng
 - điều đó không đúng
 - nó sai
-- điều đó không đúng
 - sai
 - không chính xác
 - bạn sai rồi
@@ -1642,7 +1534,6 @@
 - Hy vọng gặp lại bạn
 - tạm biệt
 - tôi phải đi
-- tạm biệt
 - Tạm biệt
 - hẹn gặp lại
 - hẹn sớm gặp lại
@@ -1654,7 +1545,6 @@
 - bây giờ thì tạm biệt nhé
 - để tôi yên
 - đi ngủ
-- tạm biệt
 - nói chuyện với bạn sau
 - bạn có thể đi ngay bây giờ
 - bị lạc
@@ -1680,7 +1570,6 @@
 - chào buổi tối
 - hey chào buổi tối
 - hello chào buổi tối
-- chào buổi tối
 - có một buổi tối tuyệt vời
 - buổi tối vui vẻ
 - chào buổi tối bạn
@@ -1695,7 +1584,6 @@
 - have a nice morning
 - có một buổi sáng tuyệt vời
 - buổi sáng
-- chào buổi sáng
 - top of the morning to you
 - một buổi sáng tốt lành
 - good morning
@@ -1715,16 +1603,12 @@
 - cám ơn ngủ ngon
 - tạm biệt, ngủ ngon
 - chúc ngủ ngon, tạm biệt
-- tạm biệt, ngủ ngon
-- chúc ngủ ngon
-- chúc ngủ ngon
 - ngủ ngon
 - cám ơn chúc ngủ ngon
 - chúc ngủ ngon, hẹn gặp lại vào ngày mai
 - được rồi chúc ngủ ngon
 - chúc buổi tối tốt lành
 - được rồi, chúc ngủ ngon
-- chúc một đêm ngon giấc
 - goodnight
 - nite nite
 - night night
@@ -1743,7 +1627,6 @@
 - lời chào
 - I greet you
 - hello
-- xin chào
 - ngày đẹp trời phải không
 - xin chào lần nữa
 - chào bạn
@@ -1751,11 +1634,7 @@
 - buổi chiều
 - hello hi
 - heya
-- hey
-- hi
-- hi
 - Hello
-- hey
 - hey man
 - hey there
 - hey buddy
@@ -1770,6 +1649,8 @@
 - hello em
 - em ơi
 - hi em
+- mai oi
+- helo mai
 
 ## intent:greetings.how_are_you
 - buổi sáng của bạn thế nào
@@ -1789,7 +1670,6 @@
 - hôm nay thế nào
 - Hôm nay mọi việc thế nào
 - buổi tối của bạn như thế nào
-- hôm nay thế nào
 - Bạn có một ngày vui vẻ chứ
 - Hy vọng ngày của bạn tiến triển tốt
 - hy vọng bạn có một buổi tối vui vẻ
@@ -1797,14 +1677,12 @@
 - tôi khỏe, còn bạn
 - cuộc sống của bạn thế nào
 - Ngày hôm nay của bạn như thế nào
-- buổi sáng của bạn thế nào
 - ngày hôm nay của bạn thế nào
 - ngày hôm nay bạn thế nào
 - Hôm nay bạn thấy thế nào
 - ngày hôm nay của bạn thấy thế nào
 - hôm nay bạn thấy như thế nào
 - một ngày của bạn như thế nào
-- ngày của bạn thế nào
 - sáng nay bạn thế nào
 - bạn làm thế nào?
 - bạn khỏe không
@@ -1818,21 +1696,16 @@
 
 ## intent:greetings.nice_to_meet_you
 - rất vui được gặp bạn
-- rất vui được gặp bạn
 - hân hạnh được gặp bạn
 - thật tốt khi biết em
-- rất vui được gặp bạn
-- rất vui được gặp bạn
 - cũng hân hạnh được gặp bạn
 - Hân hạnh được gặp bạn
-- rất vui được gặp bạn
 - tôi cũng rất vui được gặp bạn
 - vui khi được gặp bạn
 - Thật hân hạnh được gặp bạn
 - Rất vui được gặp bạn
 - Rất mừng được gặp bạn
 - Thật tuyệt vời khi gặp bạn
-- Rất vui được gặp bạn
 - Thật vui khi gặp bạn
 - Tôi đã rất thích gặp bạn
 - Tương tác tuyệt vời với bạn
@@ -1858,7 +1731,6 @@
 - Tôi rất vui khi gặp lại bạn
 - rất vui được gặp lại bạn
 - Rất vui khi gặp bạn
-- thật tốt khi gặp bạn
 - Thật tuyệt khi bắt kịp bạn
 - Tôi rất vui được gặp lại bạn
 - Tôi vui mừng khi gặp lại bạn
@@ -1903,12 +1775,9 @@
 - Tôi tức giận
 - Tôi giận bạn
 - tôi giận
-- Tôi giận bạn
 - Tôi đang bực mình
 - bạn đã chọc tức tôi
 - Tôi bực bạn
-- Tôi tức giận
-- Tôi giận bạn
 - Tôi đã rất tức giận
 - Điều đó làm tôi tức giận
 - Bạn làm tôi tức giận
@@ -1970,7 +1839,6 @@
 - Tôi đang bận
 - Tôi có việc phải làm
 - tôi bận như thế nào
-- Tôi có việc phải làm
 - tôi đang làm việc
 - Tôi không có thời gian cho việc này
 - Tôi đang rất bận
@@ -1992,19 +1860,13 @@
 - Tôi không thể ngủ được
 - Tôi không ngủ được
 - Tôi không thể ngủ
-- Tôi không ngủ được
-- Tôi bị mất ngủ
-- Tôi không thể ngủ được
-- Tôi không thể ngủ
 - Tôi dường như không thể ngủ
-- Tôi không thể ngủ
 - Tôi chỉ không thể ngủ
 - Tôi hoàn toàn không ngủ được
 - Tôi chỉ không ngủ được
 - Tôi ngủ không ngon
 - Đang cố ngủ
 - Tôi không thể ngủ vào ban đêm
-- Tôi không thể ngủ
 - Tôi đã không ngủ nhiều
 - anh bị mất ngủ rồi mai ơi
 - tao đang khó ngủ đây
@@ -2017,7 +1879,6 @@
 - Tôi không nói với bạn nữa
 - Tôi không muốn nói chuyện với bạn
 - Tôi không có tâm trạng để trò chuyện
-- Tôi không muốn nói chuyện với bạn
 - Tôi không thích nói chuyện với bạn
 - Tôi không có tâm trạng để nói chuyện
 - Bạn có thể dừng nói chuyện được không
@@ -2036,13 +1897,11 @@
 - Tôi rất vui mừng khi bắt đầu tình bạn của chúng tôi
 - tôi phấn khởi
 - Tôi rất phấn khởi được nói chuyện với bạn
-- Tôi rất phấn khích
 - Tôi hào hứng
 - Tôi rất hào hứng
 - Tôi cảm thấy phấn khích
 - Thật là thú vị
 - Điều đó thật thú vị
-- Tôi thực sự rất phấn khích
 - Thật thú vị!
 - tôi rất hào hứng về ngày mai
 - Tôi khá hào hứng với nó
@@ -2072,7 +1931,6 @@
 - Tôi đang làm rất tốt
 - tôi đang làm tốt
 - tôi rất ổn
-- tôi đang làm tốt
 - Tôi đang cảm thấy tuyệt vời
 - Tôi đang trong tâm trạng tốt
 - Tôi đang rất tốt
@@ -2093,7 +1951,6 @@
 - tôi thấy vui vì gặp bạn
 - vui mừng
 - nếu bạn vui thì tôi cũng vui
-- tôi thấy vui vì gặp bạn
 - bạn làm tôi rất hạnh phúc
 - Tôi rất vui khi thấy bạn
 - Rất vui được nói chuyện với bạn
@@ -2142,13 +1999,11 @@
 - Tôi đang đùa mà
 - đó là một trò đùa
 - Tôi chỉ nói đùa thôi
-- đó là một trò đùa
 - đùa thôi
 - đùa ấy mà
 - tôi đã nói đùa
 - Tôi chỉ nói giỡn
 - Tôi đã nói đùa
-- Đó chỉ là một trò đùa
 - Đó chỉ là một trò đùa
 - tôi nói như một trò đùa
 - anh đùa ấy mà
@@ -2171,7 +2026,6 @@
 - tôi thích bạn rất nhiều
 - Tôi rất quý bạn
 - vâng tôi thích bạn
-- bạn thật đặc biệt
 - Có tôi thích bạn
 - được rồi tôi thích bạn
 - bạn thật đặc biệt với tôi
@@ -2188,18 +2042,14 @@
 - Bạn rất đặc biệt với tôi
 - không tôi thích bạn theo cách của bạn
 - Tôi thực sự thích bạn
-- bạn thật đặc biệt
 - nhưng tôi thực sự thích bạn
 - anh thích em nhiều hơn
 - đó là những gì tôi thích ở bạn
-- bạn thật đặc biệt
 - chào tôi thích bạn
 - tôi thực sự thực sự thích bạn
-- bạn rất đặc biệt
 - tôi thích bạn như một người bạn
 - đó là bởi vì bạn là đặc biệt
 - tôi đã nói tôi thích bạn
-- bạn thật đặc biệt
 - tốt, tôi thích bạn
 - vâng bạn thật đặc biệt
 - tôi thích nụ cười của bạn
@@ -2207,14 +2057,12 @@
 - Tôi bắt đầu thích bạn
 - bạn thật tuyệt vời tôi thích bạn
 - Tôi cũng thích bạn
-- nhưng tôi thích bạn
 - Tất nhiên tôi thích bạn
 - Tôi cũng thích bạn, bạn là một trong những tôi thích trò chuyện
 - nhưng tôi thích bạn rất nhiều
 - thực sự thích bạn
 - bạn vui tính tôi thích bạn
 - Tôi giống bạn
-- bạn thật đặc biệt với tôi
 - bạn rất đặc biệt với tôi
 - Tôi thích điều đó về bạn
 - nhưng tôi thích bạn theo cách của bạn
@@ -2225,11 +2073,9 @@
 - xin lỗi tôi thích bạn
 - cảm ơn tôi cũng thích bạn
 - bạn thật là đặc biệt
-- bạn thật đặc biệt với tôi
 - bởi vì tôi thích bạn
 - Tôi thích bạn bây giờ
 - Tôi thích bạn quá
-- Tôi thực sự thích bạn
 - Tôi thực sự thực sự rất thích bạn
 - Tôi thích bạn theo cách của bạn
 - anh thích em
@@ -2246,8 +2092,6 @@
 - tôi là một người cô độc
 - Tôi không có ai khác
 - Tôi luôn luôn một mình
-- tôi cô đơn
-- tôi rất cô đơn
 - Tôi sống một mình
 - Tôi cô đơn quá
 - Tôi đã quen sống một mình
@@ -2288,7 +2132,6 @@
 - tôi yêu bạn rất nhiều
 - tôi cũng yêu bạn
 - Tôi nghĩ tôi yêu bạn
-- yêu bạn
 - bạn biết tôi yêu bạn
 - Bạn có yêu tôi không ?
 - Yêu bạn nhiều lắm
@@ -2309,10 +2152,8 @@
 - tôi đã rất nhớ bạn
 - Tôi đã nhớ bạn
 - nhớ bạn rất nhiều
-- nhớ bạn
 - anh đã rất nhớ em
 - tôi sẽ nhớ bạn
-- Tôi nhớ bạn rất nhiều
 - Tôi thực sự nhớ bạn
 - tôi đã nhớ bạn rồi
 - Tôi nghĩ tôi nhớ bạn
@@ -2326,25 +2167,6 @@
 - cho tôi một lời khuyên khôn ngoan
 - tôi cần lời khuyên
 - lời khuyên nào
-## lookup: location- bạn có lời khuyên nào cho tôi không
-- tư vấn cho tôi
-- tôi nên làm gì
-- tôi có thể xin lời khuyên của bạn
-- bạn có thể tư vấn cho tôi không
-- bạn có thể cho tôi lời khuyên
-- Bạn có thể cho tôi vài lời khuyên được không
-- cho tôi một lời khuyên về
-- cho tôi một lời khuyên tốt
-- giúp tôi lời khuyên
-- tôi có thể sử dụng một vài lời khuyên
-- Tôi cần một lời khuyên từ bạn
-- Tôi tìm kiếm lời khuyên của bạn
-- bạn có thể đề nghị gì
-- bạn có đề nghị gì
-- lời khuyên của bạn là gì
-- hãy cho anh một lời khuyên
-- anh nên làm gì bây giờ hả MAI
-- anh nên làm gì bây giờ MAI
 
 ## intent:user.sad
 - Tôi đang có tâm trạng buồn
@@ -2377,12 +2199,10 @@
 - tôi muốn đi ngủ
 - Tôi đang ngủ gật
 - Tôi đang ngủ
-- Tôi buồn ngủ
 - tôi sẽ ngủ bất cứ lúc nào
 - tôi sẽ ngủ gật
 - Hôm nay tôi buồn ngủ quá
 - cảm thấy buồn ngủ quá
-- tôi muốn đi ngủ
 - anh buồn ngủ quá
 - anh thấy buồn ngủ quá mai ơi
 
@@ -2420,7 +2240,6 @@
 - Tôi sẽ trở lại
 - Tôi sẽ quay lại
 - Tôi đảm bảo rằng tôi sẽ quay lại sớm
-- Tôi sẽ trở lại
 - tôi sẽ quay lại với bạn
 - cho tôi vài giây
 - một giây
@@ -2480,14 +2299,11 @@
 - Tôi hoàn toàn kiệt sức
 - tôi vô cùng mệt mỏi
 - tôi đã mệt mỏi
-- tôi cảm thấy mệt
 - tôi chết mê chết mệt
 - Tôi hơi mệt
 - tôi đã rất mệt
 - Tôi thực sự mệt mỏi
-- tôi vô cùng mệt mỏi
 - tôi hơi mệt một chút
-- Tôi hơi mệt
 - Anh mệt quá mai ơi
 - anh mệt
 - tao mệt
@@ -2508,11 +2324,9 @@
 - tôi đang đợi bạn
 - Tôi đã chờ đợi rất lâu
 - Tôi sẽ đợi bạn
-- tôi sẽ đợi
 - Tôi có nên đợi bạn ở đây không?
 - Chúng ta sẽ phải đợi bao lâu?
 - Đừng bao giờ bắt tôi phải đợi nữa
-- Tôi đã chờ đợi rất lâu
 - Tôi đã chờ đợi quá lâu cho việc này
 - Tôi không thể đợi thêm một giây
 - Tôi đã ở đây đợi bạn
@@ -2527,7 +2341,6 @@
 - bạn có thể làm gì?
 - có thể làm gì?
 - khả năng của bạn là gì?
-- khả năng của bạn là gì?
 - điều mà bạn có thể làm cho tôi là gì?
 - những gì bạn có thể cung cấp cho tôi?
 - bạn biết làm gì?
@@ -2535,7 +2348,6 @@
 - bạn biết làm những gì?
 - bạn làm gì?
 - bạn có thể làm gì cho tôi?
-- tất cả những gì bạn có thể làm?
 - tính năng của bạn là gì?
 - em có thể làm gì
 - em làm được những gì
@@ -2700,7 +2512,6 @@
 - what does [winter](word) mean?
 - what does [languid](word) mean?
 
-
 ## intent:request_trivia
 - what is the [height](attribute) of the [empire state building](entity)?
 - what is the [height](attribute) of the [Empire State Building](entity)?
@@ -2720,16 +2531,19 @@
 - what is the [highest point](attribute) in [europe](entity)?
 - what is the [longitude](attribute) of [amsterdam](entity)?
 
-## synonym:height
-- do cao
-- cao do
-- cao
-
 ## synonym:cổ phiếu
-- chứng khoán
 - mã
 - co phieu
 - chung khoan
+- chứng khoán
 
-## lookup: stockcodes
-data/lookups/stockcodes.txt
+## synonym:height
+- do cao
+- cao
+- cao do
+
+## lookup: location- bạn có lời khuyên nào cho tôi không
+  data/ location- bạn có lời khuyên nào cho tôi không
+
+## lookup:stockcodes.txt
+  data/lookups/stockcodes.txt

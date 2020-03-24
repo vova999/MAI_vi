@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0.0
+  session_expiration_time: 0
   carry_over_slots_to_new_session: true
 intents:
 - user.ask_weather:
@@ -16,20 +16,12 @@ intents:
     triggers: utter_user.wants_to_talk
 - user.will_be_back:
     triggers: utter_user.will_be_back
-- confirmation.yes:
-    triggers: utter_confirmation.yes
-- confirmation.cancel:
-    triggers: utter_confirmation.cancel
-- confirmation.no:
-    triggers: utter_confirmation.no
 - stock_price_matching:
     triggers: utter_give_stock_price_matching
 - stock_foreign_net_buy:
     triggers: utter_give_stock_foreign_net_buy
 - chart_marketdepth:
     triggers: utter_give_chart_marketdepth
-- greet:
-    triggers: utter_ask_howcanhelp
 - portfolio_view:
     triggers: utter_give_portfolio_view
 - stock_news_latest:
@@ -91,10 +83,6 @@ intents:
     triggers: utter_agent.boss
 - agent.busy:
     triggers: utter_agent.busy
-- agent.can_you_help:
-    triggers: utter_agent.can_you_help
-- agent.chatbot:
-    triggers: utter_agent.chatbot
 - agent.clever:
     triggers: utter_agent.clever
 - agent.crazy:
@@ -113,8 +101,6 @@ intents:
     triggers: utter_agent.hungry
 - agent.marry_user:
     triggers: utter_agent.marry_user
-- agent.my_friend:
-    triggers: utter_agent.my_friend
 - agent.occupation:
     triggers: utter_agent.occupation
 - agent.origin:
@@ -141,8 +127,6 @@ intents:
     triggers: utter_appraisal.no_problem
 - appraisal.thank_you:
     triggers: utter_appraisal.thank_you
-- appraisal.welcome:
-    triggers: utter_appraisal.welcome
 - appraisal.well_done:
     triggers: utter_appraisal.well_done
 - dialog.hold_on:
@@ -177,8 +161,6 @@ intents:
     triggers: utter_greetings.nice_to_meet_you
 - greetings.nice_to_see_you:
     triggers: utter_greetings.nice_to_see_you
-- greetings.nice_to_talk_to_you:
-    triggers: utter_greetings.nice_to_talk_to_you
 - greetings.whatsup:
     triggers: utter_greetings.whatsup
 - user.angry:
@@ -243,7 +225,7 @@ entities:
 - entity
 - attribute
 - word
-templates:
+responses:
   utter_give_chart_marketdepth:
   - text: type="chart_marketdepth" param_stockcode="{stockcode}"
   utter_give_top_gainers:
@@ -671,8 +653,6 @@ actions:
 - utter_agent.boring
 - utter_agent.boss
 - utter_agent.busy
-- utter_agent.can_you_help
-- utter_agent.chatbot
 - utter_agent.clever
 - utter_agent.crazy
 - utter_agent.fired
@@ -682,7 +662,6 @@ actions:
 - utter_agent.hobby
 - utter_agent.hungry
 - utter_agent.marry_user
-- utter_agent.my_friend
 - utter_agent.occupation
 - utter_agent.origin
 - utter_agent.ready
@@ -696,7 +675,6 @@ actions:
 - utter_appraisal.good
 - utter_appraisal.no_problem
 - utter_appraisal.thank_you
-- utter_appraisal.welcome
 - utter_appraisal.well_done
 - utter_dialog.hold_on
 - utter_dialog.hug
@@ -714,7 +692,6 @@ actions:
 - utter_greetings.how_are_you
 - utter_greetings.nice_to_meet_you
 - utter_greetings.nice_to_see_you
-- utter_greetings.nice_to_talk_to_you
 - utter_greetings.whatsup
 - utter_user.angry
 - utter_user.back
@@ -743,9 +720,6 @@ actions:
 - utter_user.wants_to_see_agent_again
 - utter_user.wants_to_talk
 - utter_user.will_be_back
-- utter_confirmation.yes
-- utter_confirmation.cancel
-- utter_confirmation.no
 - utter_agent.what_can_do
 - utter_user.fuck_agent
 - utter_agent.boy_girl
@@ -756,9 +730,6 @@ actions:
 - utter_cheer_up
 - utter_happy
 - utter_did_that_help
-- action_fetch_quote
-- action_fetch_joke
-- utter_hello
-- action_fetch_fun_fact
-- action_fetch_word_definition
-- action_fetch_trivia
+- utter_agent.can_you_help
+- utter_agent.chatbot
+- utter_agent.my_friend
