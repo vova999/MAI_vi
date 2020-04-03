@@ -1,5 +1,5 @@
 session_config:
-  session_expiration_time: 0
+  session_expiration_time: 0.0
   carry_over_slots_to_new_session: true
 intents:
 - user.ask_weather:
@@ -209,22 +209,116 @@ intents:
     triggers: utter_user.testing_agent
 - user.tired:
     triggers: utter_user.tired
-- mood_unhappy
-- mood_great
-- bot_challenge
-- affirm
-- deny
-- goodbye
-- request_fun_fact
-- request_joke
-- request_word_definition
-- request_quote
-- request_trivia
+- news_stock_latest
+- greet
+- def.co_phieu:
+    triggers: utter_def.co_phieu
+- def.chung_khoan:
+    triggers: utter_def.chung_khoan
+- def.exchange_trade_fund:
+    triggers: utter_def.exchange_trade_fund
+- def.stock_exchange:
+    triggers: utter_def.stock_exchange
+- def.volume_trade:
+    triggers: utter_def.volume_trade
+- def.stock_price_floor:
+    triggers: utter_def.stock_price_floor
+- def.bond:
+    triggers: utter_def.bond
+- def.transaction_office:
+    triggers: utter_def.transaction_office
+- def.how_many_transaction_offices:
+    triggers: utter_def.how_many_transaction_offices
+- def.min_invest:
+    triggers: utter_def.min_invest
+- def.account_opening_fee:
+    triggers: utter_def.account_opening_fee
+- def.how_to_trade:
+    triggers: utter_def.how_to_trade
+- def.online_trading:
+    triggers: utter_def.online_trading
+- def.money_safe:
+    triggers: utter_def.money_safe
+- def.money_interest_calculated:
+    triggers: utter_def.money_interest_calculated
+- def.stock_is_up_or_down:
+    triggers: utter_def.stock_is_up_or_down
+- def.trading_fee:
+    triggers: utter_def.trading_fee
+- def.buy_or_sell_same_tock_at_same_time:
+    triggers: utter_def.buy_or_sell_same_tock_at_same_time
+- def.sell_stock_none:
+    triggers: utter_def.sell_stock_none
+- def.time_to_sell_stock:
+    triggers: utter_def.time_to_sell_stock
+- def.rights_of_stock:
+    triggers: utter_def.rights_of_stock
+- def.exercise_stock_rights:
+    triggers: utter_def.exercise_stock_rights
+- def.receive_stock_dividends:
+    triggers: utter_def.receive_stock_dividends
+- def.opening_accounts_same_time:
+    triggers: utter_def.opening_accounts_same_time
+- def.selling_stock_after_buying:
+    triggers: utter_def.selling_stock_after_buying
+- def.time_to_receive_stock:
+    triggers: utter_def.time_to_receive_stock
+- def.deposit_to_account:
+    triggers: utter_def.deposit_to_account
+- def.withdraw:
+    triggers: utter_def.withdraw
+- def.margin_trading:
+    triggers: utter_def.margin_trading
+- def.margin_interest_rate:
+    triggers: utter_def.margin_interest_rate
+- def.initial_margin_ratio:
+    triggers: utter_def.initial_margin_ratio
+- def.margin_call:
+    triggers: utter_def.margin_call
+- def.overseas_opening_account:
+    triggers: utter_def.overseas_opening_account
+- def.buy_foreign_securities:
+    triggers: utter_def.buy_foreign_securities
+- def.upcom_floor:
+    triggers: utter_def.upcom_floor
+- def.time_trading_hose:
+    triggers: utter_def.time_trading_hose
+- def.amount_trading_hsx:
+    triggers: utter_def.amount_trading_hsx
+- def.market_capitalization:
+    triggers: utter_def.market_capitalization
+- how_to_opening_account:
+    triggers: utter_def.how_to_opening_account
+- def.capitalization:
+    triggers: utter_def.capitalization
+- def.tet_vietnam:
+    triggers: utter_def.tet_vietnam
+- def.stock_center:
+    triggers: utter_def.stock_center
+- def.amount_trading_hnx:
+    triggers: utter_def.amount_trading_hnx
+- def.amount_trading_upcome:
+    triggers: utter_def.amount_trading_upcome
+- def.finance_meaning:
+    triggers: utter_def.finance_meaning
+- def.viet_tin_securities:
+    triggers: utter_def.viet_tin_securities
+- def.age_to_opening_account:
+    triggers: utter_def.age_to_opening_account
+- def.investing_securities:
+    triggers: utter_def.investing_securities
+- def.dividends_meaning:
+    triggers: utter_def.dividends_meaning
+- def.trading_oder_meaning:
+    triggers: utter_def.trading_oder_meaning
+- def.lost_money_to_invest:
+    triggers: utter_def.lost_money_to_invest
+- def.transfer_money_company_to_company:
+    triggers: utter_def.transfer_money_company_to_company
+- def.etf_meaning
+- def.derivatives_meaning
 entities:
 - stockcode
-- entity
-- attribute
-- word
 responses:
   utter_give_chart_marketdepth:
   - text: type="chart_marketdepth" param_stockcode="{stockcode}"
@@ -618,6 +712,284 @@ responses:
   - text: MAI ở trên đám mây nên lúc nào cũng mây mù, không rõ chỗ bạn mưa nắng thế
       nào
   - text: MAI chưa được lập trình để trả lời các câu hỏi về thời tiết ạ
+  utter_def.co_phieu:
+  - text: Cổ phiếu là giấy chứng nhận số tiền nhà đầu tư đóng góp vào công ty phát
+      hành. Cổ phiếu là chứng chỉ do công ty cổ phần phát hành hoặc bút toán ghi sổ
+      xác nhận quyền sở hữu một hoặc một số cổ phần của công ty đó.
+  utter_def.chung_khoan:
+  - text: 'Chứng khoán là bằng chứng xác nhận quyền và lợi ích hợp pháp của người
+      sở hữu đối với tài sản hoặc phần vốn của tổ chức phát hành. Chứng khoán được
+      thể hiện bằng hình thức chứng chỉ, bút toán ghi sổ hoặc dữ liệu điện tử. Chứng
+      khoán bao gồm các loại: cổ phiếu, trái phiếu, chứng chỉ quỹ đầu tư, chứng khoán
+      phái sinh. Thực chất chứng khoán là một loại hàng hóa đặc biệt.'
+  utter_def.exchange_trade_fund:
+  - text: '- Chứng chỉ quỹ (Exchange Traded Fund) là loại chứng khoán xác nhận một
+      phần quyền sở hữu của nhà đầu tư đối vốn góp của quỹ đại chúng.  Trong đó quỹ
+      đại chúng là quỹ đầu tư chứng khoán được hình thành từ vốn góp của các nhà đầu
+      tư, nhằm mục đích kiếm lợi nhuận từ việc đa dạng hóa đầu tư vào chứng khoán
+      hoặc các dạng tài sản đầu tư khác. Việc đầu tư này mang mục đích phân tán rủi
+      ro. Tuy nhiên: - Nhà đầu tư không có quyền kiểm soát hàng ngày đối với việc
+      ra quyết định đầu tư của quỹ. - Nhà đầu tư khi góp vốn vào quỹ đại chúng thì
+      việc mua chứng chỉ quỹ để đảm bảo cũng như xác nhận sự góp vốn của bản thân
+      vào quỹ chung đó.'
+  utter_def.stock_exchange:
+  - text: Sàn giao dịch hay sàn là một thị trường (cái chợ) được tổ chức cho việc
+      trao đổi hàng hóa, chủ yếu là giữa các mã chứng khoán, hàng hóa, ngoại hối,
+      tiền mã hóa, hợp đồng tương lai và hợp đồng quyền chọn.
+  utter_def.volume_trade:
+  - text: Khối lượng giao dịch (volume) là số lượng đơn vị cổ phiếu được giao dịch trong
+      khoảng thời gian nhất định, thường sẽ mặc định là một ngày.
+  utter_def.market_capitalization:
+  - text: '- Trong tài chính, vốn hóa là tổng của cổ phiếu của một công ty, nợ dài
+      hạn và thu nhập được giữ lại. - Vốn hóa thị trường là tổng giá trị thị trường
+      của cổ phiếu đang lưu hành của một công ty đang niêm yết.'
+  utter_def.stock_price_floor:
+  - text: Hiện có 3 sàn CK được quản lý bởi 2 Sở Giao dịch CK và Sở TPHCM – HOSE và
+      Sở Hà Nội – HNX. HOSE quản lý sàn TPHCM và đại diện cho sàn là chỉ số VN-Index
+      là chỉ số chính. HNX quản lý sàn Hà Nội là HNX với chỉ số chính là HNX-Index
+      và sàn UPCOM chỉ số chính là UPCOM-Index nơi giao dịch các CP của các công ty
+      đại chúng nhưng chưa đủ điều kiện hoặc chưa muốn lên 2 sàn kia.
+  utter_def.bond:
+  - text: '- Là một loại chứng khoán quy định nghĩa vụ của công ty phát hành (người
+      vay tiền) phải trả cho người nắm giữ trái phiếu (người cho vay) một khoản tiền
+      xác định;   - Có xác định khoảng thời gian cụ thể;   - Công ty phát hành phải
+      hoàn trả khoản cho vay ban đầu khi nó đáo hạn.'
+  utter_def.transaction_office:
+  - text: Sở giao dịch chứng khoán là hình thức tổ chức thị trường chứng khoán, tạo
+      ra địa điểm và phương tiện để phục vụ việc mua, bán chứng khoán. Là nơi diễn
+      ra hoạt động mua bán chứng khoán và là cơ quan duy trì trật tự giao dịch, phục
+      vụ giao dịch trên thị trường giao dịch chứng khoán tập trung.
+  utter_def.how_many_transaction_offices:
+  - text: Hiện nay Việt Nam có 2 Sở Giao dịch Chứng khoán là Sở TPHCM – HOSE và Sở
+      Hà Nội – HNX. HOSE quản lý sàn TPHCM và đại diện cho sàn là chỉ số VN-Index
+      là chỉ số chính. HNX quản lý sàn Hà Nội là HNX với chỉ số chính là HNX-Index
+      và sàn UPCOM chỉ số chính là UPCOM-Index nơi giao dịch các cổ phiếu của các
+      công ty đại chúng nhưng chưa đủ điều kiện hoặc chưa muốn lên 2 sàn kia.
+  utter_def.min_invest:
+  - text: Trên thực tế, các công ty chứng khoán không yêu cầu nhà đầu tư phải bỏ vốn
+      tối thiểu bao nhiêu tiền. Do đó, dù bạn có vài triệu đồng hay chỉ vài trăm nghìn
+      thì về nguyên tắc, bạn vẫn có thể mở tài khoản và mua được cổ phiếu.  Bạn cần
+      bao nhiêu tiền phụ thuộc vào giá và số lượng cổ phiếu mà bạn muốn đầu tư.
+  utter_def.account_opening_fee:
+  - text: Mở tài khoản chứng khoán là hoàn toàn miễn phí, không công ty chứng khoán
+      (CTCK) nào thu phí của bạn cả.
+  utter_def.how_to_opening_account:
+  - text: Để mở tài khoản giao dịch chứng khoán chắc chắn bạn cần ký hợp đồng mở tài
+      khoản với Công ty chứng khoán (CTCK). Để tìm hiểu chi tiết về giấy tờ, thủ tục
+      tiến hành mở tài khoản, mời bạn nhấn vào đây http://www.viet-tin.com/vtss/gioi-thieu/
+  utter_def.how_to_trade:
+  - text: 'Bạn có thể đặt lệnh mua/bán chứng khoán bằng 1 trong các cách sau: đến
+      trực tiếp sàn giao dịch CTCK để đặt lệnh; đặt lệnh qua điện thoại; đặt lệnh
+      giao dịch online qua web/ứng dụng qua thiết bị có kết nối internet.'
+  utter_def.online_trading:
+  - text: Giao dịch Online chính là hình thức giao dịch cho phép khách hàng tiếp
+      cận thông tin và mua, bán chứng khoán một cách nhanh chóng. Chỉ với một
+      chiếc máy tính hoặc smartphone có cài đặt ứng dụng và kết nối mạng Internet.
+      Đây được xem là một phương tiện hữu ích đồng hành cùng bạn trong suốt
+      quá trình đầu tư chứng khoán.
+  utter_def.money_safe:
+  - text: Có. Hiện nay có 2 hình thức nộp tiền giao dịch chứng khoán. Đó là gửi trực
+      tiếp vào tài khoản giao dịch chứng khoán hoặc gửi vào tài khoản ngân hàng có
+      liên kết với tài khoản chứng khoán (connecting bank). Các tài khoản này đều
+      được quản lý theo quy định của pháp luật để đảm bảo quyền lợi hợp pháp của nhà
+      đầu tư.
+  utter_def.money_interest_calculated:
+  - text: Số tiền bạn còn trong tài khoản chứng khoán mà bạn không sử dụng đến sẽ
+      được tính theo lãi suất không kỳ hạn (hiện tại là 0.3%/năm).
+  utter_def.stock_is_up_or_down:
+  - text: Giá tham chiếu của 1 cổ phiếu trong phiên giao dịch ngày hôm nay chính là
+      giá đóng cửa của cổ phiếu đó trong phiên giao dịch ngày hôm qua. Nói cách khách,
+      giá đóng cửa của cổ phiếu ngày hôm nay chính là giá tham chiếu của cổ phiếu
+      đó trong phiên giao dịch ngày mai. Trong phiên giao dịch, khi theo dõi bảng
+      giá chứng khoán, bạn có thể theo dõi cổ phiếu đó đang khớp lệnh ở giá tăng so
+      với giá tham chiếu (màu xanh), tăng trần (màu tím), giữ nguyên giá tham chiếu
+      (màu vàng), giá giảm (màu đỏ) hay giá giảm sàn (màu nhạt xám).
+  utter_def.trading_fee:
+  - text: Phí giao dịch chứng khoán sẽ do từng công ty chứng khoán quy định. Hiện
+      nay thông thường phí sẽ giao động trong khoảng 0.15%-0.3%.
+  utter_def.buy_or_sell_same_tock_at_same_time:
+  - text: Bạn ̣được phép đặt lệnh Mua/Bán đồng thời cùng một mã chứng khoán trong
+      phiên khớp lệnh liên tục. Bạn không được phép đặt lệnh Mua/Bán đồng thời cùng
+      một mã chứng khoán trong phiên khớp lệnh định kỳ, trừ các lệnh chưa khớp và
+      còn hiệu lực từ phiên khớp lệnh liên tục trước đó.
+  utter_def.sell_stock_none:
+  - text: Không được. Bạn chỉ có thể đặt lệnh bán 1 mã chứng khoán khi trong tài khoản
+      của bản đã có sẵn chứng khoán đó.
+  utter_def.time_to_sell_stock:
+  - text: 'Chu kỳ thanh toán đang áp dụng trên cả 3 sàn HOSE, HNX, UPCOM là T+2 (2
+      ngày giao dịch). Điều này có nghĩa , sau khi mua chứng khoán thành công, thì
+      sau 2 ngày giao dịch, chứng khoán đó sẽ về tài khoản của bạn. Lúc đó bạn có
+      thể đặt bán chứng khoán này. Ví dụ: Vào ngày thứ 3 (5/6/2018), bạn mua cổ phiếu
+      VND thì đến ngày thứ 5 (7/6/2018) là cổ phiếu đã về tài khoản. Tuy nhiên cổ
+      phiếu sẽ về tài khoản vào buổi chiều nên phải sang phiên giao dịch ngày hôm
+      sau bạn mới có thể bán được cổ phiếu này. Với cổ phiếu bạn mua vào thứ 5, thứ
+      6 thì thời gian cổ phiếu về tài khoản sẽ không tính thứ 7, chủ nhật.'
+  utter_def.rights_of_stock:
+  - text: Quyền mà cổ đông nắm giữ cổ phần có thể nhận được là quyền nhận cổ tức (cổ
+      tức bằng tiền, cổ tức bằng cổ phiếu); quyền mua cổ phiếu phát hành thêm với
+      giá ưu đãi; quyền bỏ phiếu; quyền họp đại hội cổ đông; quyền đóng góp ý kiến
+      vào việc kinh doanh của công ty
+  utter_def.exercise_stock_rights:
+  - text: Tùy vào loại quyền mà chứng khoán đó phát sinh, cổ đông mới cần thực hiện
+      những công việc cụ thể. - Đối với các quyền cổ tức, bạn không cần làm gì, cổ
+      tức vẫn tự động được chuyển về tài khoản hoặc được ghi nhận cho bạn.  - Đối
+      với quyền mua chứng khoán phát hành thêm, CTCK nơi bạn mở tài khoản hoặc tổ
+      chức phát hành của chứng khoán đó sẽ liên hệ và thông báo với bạn các thông
+      tin về đợt thực hiện quyền mua. Khi đó nếu bạn thực hiện, bạn hãy làm theo chỉ
+      dẫn của CTCK hoặc tổ chức phát hành. - Với các quyền khác, bạn làm theo hướng
+      dẫn của tổ chức phát hành để thực hiện quyền lợi hợp pháp của mình.
+  utter_def.receive_stock_dividends:
+  - text: Đối với quyền cổ tức bằng cổ phiếu, bạn không cần thực hiện thao tác gì
+      thì cổ tức này vẫn về tài khoản của bạn hoặc được ghi nhận quyền lợi hợp pháp
+      của bạn.
+  utter_def.opening_accounts_same_time:
+  - text: Được. Theo quy định tại Thông tư 203/2015/TT-BTC của Ủy ban Chứng khoán
+      Nhà nước, bạn chỉ được mở tại mỗi công ty chứng khoán 1 tài khoản chứng khoán.
+      Nhưng bạn lại có thể mở tài khoản tại nhiều công ty chứng khoán khác nhau. ...
+      Như vậy, 1 nhà đầu tư có thể mở nhiều tài khoản chứng khoán.
+  utter_def.selling_stock_after_buying:
+  - text: Không. Chu kỳ thanh toán đang áp dụng trên cả 3 sàn HOSE, HNX, UPCOM là
+      T+2 (2 ngày giao dịch). Điều này có nghĩa là, sau khi mua chứng khoán thành
+      công, thì sau 2 ngày giao dịch chứng khoán đó sẽ về tài khoản của bạn (chứng
+      khoán về tài khoản sau giờ giao dịch ngày T+2). Bạn có thể đặt bán chứng khoán
+      này từ ngày T+3.
+  utter_def.time_to_receive_stock:
+  - text: 'Chu kỳ thanh toán đang áp dụng trên cả 3 sàn HOSE, HNX, UPCOM là T+2 (2
+      ngày giao dịch). Điều này có nghĩa là, sau khi mua chứng khoán thành công, thì
+      sau 2 ngày giao dịch chứng khoán đó sẽ về tài khoản của bạn. Ví dụ: Vào ngày
+      thứ 3(5/6/2018), bạn mua cổ phiếu VND thì đến ngày thứ 5 (7/6/2018) là cổ phiếu
+      đã về tài khoản. Và bạn lưu ý rằng cổ phiếu sẽ về tài khoản của bạn vào buổi
+      chiều ngày T+2, sau giờ giao dịch.'
+  utter_def.deposit_to_account:
+  - text: 'Mỗi CTCK có quy định cụ thể về cách nộp tiền vào tài khoản chứng khoán.
+      Tuy nhiên thông thường sẽ có 3 cách nộp tiền, là: - Nộp tiền mặt tại quầy ngân
+      hàng vào tài khoản chứng khoán. - Chuyển tiền online từ tài khoản ngân hàng
+      vào tài khoản chứng khoán. - Nộp tiền qua connecting bank'
+  utter_def.withdraw:
+  - text: Thông thường, nhà đầu tư có thể đến trực tiếp công ty chứng khoán viết giấy
+      rút tiền hoặc thực hiện lệnh rút tiền online thông qua thiết bị kết nối internet.
+  utter_def.margin_trading:
+  - text: Giao dịch ký quỹ (Margin Trading) là việc nhà đầu tư mua cổ phiếu có sử
+      dụng hạn mức tín dụng do công ty chứng khoán cấp. Nhà đầu tư thế chấp cổ phiếu
+      đang nắm giữ, vay tiền của công ty chứng khoán để mua thêm cổ phiếu, đồng thời
+      trả lãi vay và nợ cho công ty chứng khoán khi bán chứng khoán.
+  utter_def.margin_interest_rate:
+  - text: Lãi suất giao dịch ký quỹ được quy định tùy từng công ty chứng khoán và
+      có thể thay đổi tùy theo từng thời kì. Thông thường lãi suất giao dịch ký quỹ
+      sẽ cao hơn lãi suất vay ngân hàng.
+  utter_def.initial_margin_ratio:
+  - text: 'Tỷ lệ ký quỹ ban đầu là phần trăm của tổng giá trị cổ phiếu ký quỹ mà nhà
+      đầu tư buộc phải trả khi mua trên tài khoản ký quỹ. Ví dụ, nếu nhà đầu tư có
+      100.000.000 đồng, muốn mua cổ phiếu ABC với mức ký quỹ ban đầu 50%. Vậy thì
+      số lượng cổ phiếu ABC được phép mua ký quỹ được tính như sau: 100.000.000đ/
+      50% = 200.000.000đ. Như vậy, nhà đầu tư có thể mua 200.000.000 đồng cổ phiếu
+      ABC khi sử dụng dịch vụ ký quỹ.'
+  utter_def.margin_call:
+  - text: Đây là mức tỷ lệ ký quỹ margin tối thiểu bạn phải duy trì. Khi tỷ lệ ký
+      quỹ bằng hoặc thấp hơn tỷ lệ cảnh bảo (cao hơn tỷ lệ ép bán), công ty chứng
+      khoán sẽ gọi điện, nhắn tin thông báo bạn bổ sung ký quỹ. Hiện nay, tỷ lệ margin
+      call thông thường ở các công ty chứng khoán là 40%.
+  utter_def.overseas_opening_account:
+  - text: Có thể. Công ty chứng khoán sẽ tiến hành quy trình mở tài khoản từ xa cho
+      bạn.
+  utter_def.buy_foreign_securities:
+  - text: Không thể. Tài khoản giao dịch chứng khoán mở tại Việt Nam, hiện nay chỉ
+      mua/bán được chứng khoán đang niêm yết trên các sàn giao dịch chứng khoán của
+      Việt Nam.
+  utter_def.upcom_floor:
+  - text: Sàn chứng khoán Upcom (Tên viết tắt tiếng anh là Unlisted Public Company
+      Market) là nơi giao dịch chứng khoán của công ty đại chúng chưa được niêm yết.
+      Sàn Upcom được tổ chức tại Sở giao dịch chứng khoán Hà Nội.
+  utter_def.time_trading_hose:
+  - text: '1. Thời gian giao dịch sàn Hose: a. Đối với cổ phiếu, chứng chỉ quỹ đóng,
+      chứng chỉ quỹ ETF, chứng quyền - Khớp lệnh định kỳ mở cửa và thỏa thuận: 9h00’
+      đến 9h15’ - Khớp lệnh liên tục và thỏa thuận: 9h15’ đến 11h30’ - Nghỉ giữa phiên:
+      11h30’ đến 13h00’ - Khớp lệnh liên tục II và thỏa thuận: 13h00’ đến 14h30’ -
+      Khớp lệnh định kỳ đóng cửa và thỏa thuận:14h30’ đến 14h45’ - Giao dịch thỏa
+      thuận: 14h45’ đến 15h00’ b. Đối với trái phiếu - Giao dịch thỏa thuận: 9h00’
+      đến 11h30’ - Nghỉ giữa phiên: 11h30’ đến 13h00’ - Giao dịch thỏa thuận: 13h00’
+      đến 15h00’ Lệnh có giá trị trong suốt thời gian giao dịch, không hết hạn trong
+      thời gian nghỉ giữa phiên.'
+  utter_def.amount_trading_hsx:
+  - text: '- Giao dịch khớp lệnh lô chẵn: 10 cổ phiếu, chứng chỉ quỹ đóng, chứng chỉ
+      quỹ ETF, chứng quyền. Khối lượng tối đa của một lệnh đặt là 500.000 cổ phiếu,
+      chứng chỉ quỹ đóng, chứng chỉ quỹ ETF, chứng quyền. - Khối lượng giao dịch thỏa
+      thuận: từ 20.000 cổ phiếu, chứng chỉ quỹ đóng, chứng chỉ quỹ ETF, chứng quyền
+      trở lên. - Không quy định đơn vị giao dịch đối với giao dịch thỏa thuận. - Giao
+      dịch có khối lượng từ 01 đến 09 cổ phiếu (lô lẻ) được thực hiện trực tiếp giữa
+      người đầu tư với công ty chứng khoán, giá thực hiện được xác định bằng 90% giá
+      tham chiếu của ngày ký kết Hợp đồng.'
+  utter_def.capitalization:
+  - text: '- Trong tài chính, vốn hóa là tổng của cổ phiếu của một công ty, nợ dài
+      hạn và thu nhập được giữ lại. - Vốn hóa thị trường (tiếng Anh: Market Capitalization)
+      là tổng giá trị thị trường của cổ phiếu đang lưu hành của một công ty đang niêm
+      yết.'
+  utter_def.stock_center:
+  - text: Trung tâm lưu ký chứng khoán Việt Nam (VSD) quản lý nhằm đảm bảo các quyền
+      và lợi ích liên quan đến chứng khoán của người sở hữu.
+  utter_def.tet_vietnam:
+  - text: Tết Nguyên Đán (còn gọi là Tết Cả, Tết Ta, Tết Âm lịch, Tết Cổ truyền hay
+      chỉ gọi đơn giản là Tết) là dịp lễ đầu năm âm lịch quan trọng và có ý nghĩa
+      bậc nhất ở Việt Nam.
+  utter_def.tet_viet_nam:
+  - text: Tết Nguyên Đán (còn gọi là Tết Cả, Tết Ta, Tết Âm lịch, Tết Cổ truyền hay
+      chỉ gọi đơn giản là Tết) là dịp lễ đầu năm âm lịch quan trọng và có ý nghĩa
+      bậc nhất ở Việt Nam
+  utter_def.amount_trading_hnx:
+  - text: 'Đối với giao dịch khớp lệnh lô chẵn: 100 cố phiếu, chứng chỉ quỹ ETF. Khối
+      lượng giao dịch thỏa thuận: từ 5.000 cổ phiếu, chứng chỉ quỹ ETF; không quy
+      định đơn vị giao dịch. Giao dịch thỏa thuận không được phép thực hiện trong
+      ngày giao dịch đầu tiên của cổ phiếu mới niêm yết hoặc ngày giao dịch trở lại
+      sau khi bị tạm ngừng giao dịch 25 ngày liên tiếp cho đến khi có giá đóng cửa
+      được xác lập.'
+  utter_def.amount_trading_upcome:
+  - text: 'Đối với giao dịch khớp lệnh lô chẵn: 100 cổ phiếu. Không quy định đơn vị
+      giao dịch đối với giao dịch thỏa thuận. Giao dịch thỏa thuận không được phép
+      thực hiện trong ngày giao dịch đầu tiên của cổ phiếu mới niêm yết hoặc ngày
+      giao dịch trở lại sau khi bị tạm ngừng giao dịch 25 ngày liên tiếp cho đến khi
+      có giá tham chiếu được xác lập từ kết quả của phương thức khớp lệnh liên tục.'
+  utter_def.finance_meaning:
+  - text: Tài chính là phạm trù kinh tế, phản ánh các quan hệ phân phối của cải xã
+      hội dưới hình thức giá trị. Phát sinh trong quá trình hình thành, tạo lập, phân
+      phối các quỹ tiền tệ của các chủ thể trong nền kinh tế nhằm đạt mục tiêu của
+      các chủ thể ở mỗi điều kiện nhất định.
+  utter_def.viet_tin_securities:
+  - text: 'Công ty Cổ phần chứng khoán Việt Tín được thành lập bởi một nhóm các chuyên
+      gia hàng đầu Việt Nam và quốc tế trong lĩnh vực kinh tế tài chính. Website:
+      http://www.viet-tin.com/'
+  utter_def.age_to_opening_account:
+  - text: Cho dù bạn là ai, bạn luôn được quyền mở tài khoản khi bạn đủ 18 tuổi.
+  utter_def.investing_securities:
+  - text: Điều này hoàn toàn phụ thuộc vào khả năng đầu tư của bạn. MAI ở đây để giúp
+      bạn và chúc bạn sẽ kiếm được thật nhiều lợi nhuận.
+  utter_def.dividends_meaning:
+  - text: Cổ tức là một phần lợi nhuận sau thuế được chia cho cổ đông công ty sau
+      khi đã trích lập các quỹ theo quy định. Hàng năm, số tiền được trích ra để chi
+      trả cổ tức sẽ được thông qua trong Đại hội cổ đông.
+  utter_def.trading_oder_meaning:
+  - text: 'Lệnh giao dịch là một chỉ thị của khách hàng cho nhà môi giới để mua hoặc
+      bán chứng khoán theo yêu cầu mà khách hàng đặt ra. Nội dung cơ bản của một lệnh
+      giao dịch bao gồm các vấn đề cơ bản sau: - Lệnh mua hay lệnh bán - Tên khách
+      hàng - Số tài khoản - Khối lượng - Giá - Hiệu lực của lệnh'
+  utter_def.lost_money_to_invest:
+  - text: Hoàn toàn có thể bạn ạ. Mai chúc bạn có chiến lược đầu tư hợp lý để quản
+      lý được số lỗ (nếu có) của mình nhé.
+  utter_def.transfer_money_company_to_company:
+  - text: Thủ tục để đóng tài khoản/chuyển chứng khoán từ tài khoản ở công ty này
+      sang công ty khác rất đơn giản. Bạn chỉ cần cầm CMND/Thẻ căn cước còn hiệu lực
+      của mình tới công ty chứng khoán yêu cầu chuyển chứng khoán. CTCK sẽ có trách
+      nhiệm thực hiện các giấy tờ liên quan theo mẫu cho bạn.
+  utter_def.etf_meaning:
+  - text: Quỹ hoán đổi giao dịch (ETF – Exchange Traded Fund) là một loại quỹ đầu
+      tư thụ động. Với mục đích chính là mô phỏng theo một chỉ số cổ phiếu, trái phiếu,
+      hàng hóa hoặc một loại tài sản nhất định - Quỹ hoán đổi danh mục (ETF, exchange
+      traded fund) là quỹ đầu tư nắm giữ các loại tài sản như cổ phiếu, hàng hóa,
+      hoặc trái phiếu; và được giao dịch trên thị trường chứng khoán gần với giá trị
+      tài sản ròng (NAV) trong suốt phiên giao dịch.
+  utter_def.derivatives_meaning:
+  - text: Chứng khoán phái sinh là các công cụ tài chính mà giá trị của chúng phụ
+      thuộc vào giá của một tài sản cơ sở. Chứng khoán phái sinh là hợp đồng về một
+      giao dịch diễn ra trong tương lai, được xác định trước ở thời điểm hiện tại.
 actions:
 - utter_give_stock_price_matching
 - utter_apologies
@@ -724,12 +1096,62 @@ actions:
 - utter_user.fuck_agent
 - utter_agent.boy_girl
 - utter_user.ask_weather
-- utter_greet
-- utter_goodbye
-- utter_iamabot
-- utter_cheer_up
-- utter_happy
-- utter_did_that_help
 - utter_agent.can_you_help
 - utter_agent.chatbot
 - utter_agent.my_friend
+- utter_def.co_phieu
+- utter_def.chung_khoan
+- utter_def.exchange_traded_fund
+- utter_def.stock_exchange
+- utter_def.volume_trade
+- utter_def.market_capitalization
+- utter_def.stock_price_floor
+- utter_def.bond
+- utter_def.transaction_office
+- utter_def.how_many_transaction_offices
+- utter_def.min_invest
+- utter_def.account_opening_fee
+- utter_def.how_to_opening_account
+- utter_def.how_to_trade
+- utter_def.online_trading
+- utter_def.money_safe
+- utter_def.money_interest_calculated
+- utter_def.stock_is_up_or_down
+- utter_def.trading_fee
+- utter_def.buy_or_sell_same_tock_at_same_time
+- utter_def.sell_stock_none
+- utter_def.time_to_sell_stock
+- utter_def.rights_of_stock
+- utter_def.exercise_stock_rights
+- utter_def.receive_stock_dividends
+- utter_def.opening_accounts_same_time
+- utter_def.selling_stock_after_buying
+- utter_def.time_to_receive_stock
+- utter_def.deposit_to_account
+- utter_def.withdraw
+- utter_def.margin_trading
+- utter_def.margin_interest_rate
+- utter_def.initial_margin_ratio
+- utter_def.margin_call
+- utter_def.overseas_opening_account
+- utter_def.buy_foreign_securities
+- utter_def.upcom_floor
+- utter_def.time_trading_hose
+- utter_def.amount_trading_hsx
+- utter_def.capitalization
+- utter_def.stock_center
+- utter_def.tet_vietnam
+- utter_def.tet_viet_nam
+- utter_def.amount_trading_hnx
+- utter_def.amount_trading_upcome
+- utter_def.finance_meaning
+- utter_def.exchange_trade_fund
+- utter_def.viet_tin_securities
+- utter_def.age_to_opening_account
+- utter_def.investing_securities
+- utter_def.dividends_meaning
+- utter_def.trading_oder_meaning
+- utter_def.lost_money_to_invest
+- utter_def.transfer_money_company_to_company
+- utter_def.etf_meaning
+- utter_def.derivatives_meaning

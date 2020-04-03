@@ -35,6 +35,8 @@
 - hey mai
 - chào mai
 - hello mai
+- chafo
+- hai
 
 ## intent:list_top_gainers
 - cho tôi xem những cổ phiếu tăng giá cao nhất ngày hôm nay
@@ -219,6 +221,8 @@
 - [kmt](stockcode) giá trần
 - giá trần của [kkc](stockcode)
 - [fid](stockcode) trần
+- [mà san](stockcode:msn) giá trần
+- [mà sang](stockcode:msn) giá trần
 
 ## intent:stock_price_floor
 - giá sàn của [dc2](stockcode)
@@ -228,6 +232,7 @@
 - [alt](stockcode) giá sàn
 - giá sàn của [bax](stockcode)
 - [bed](stockcode) sàn
+- [Việt Nam](stockcode) có mấy sàn giao [dịch](stockcode)
 
 ## intent:stock_price_highest
 - giá cao nhất của [hhp](stockcode) là mấy
@@ -237,6 +242,9 @@
 - hôm nay giá cao nhất của [kts](stockcode) là mấy
 - mã [net](stockcode) đạt đỉnh bao nhiêu trong hôm nay
 - giá đỉnh của cổ phiếu [pcg](stockcode) là bao nhiêu
+- giá cao nhất của cổ phiếu [vi ai xi](stockcode:vic) là bao nhiêu
+- giá cao nhất của mã [Vingroup](stockcode:vic) là bao nhiêu
+- giá cao [tập đoàn Vingroup](stockcode:vic)
 
 ## intent:stock_price_lowest
 - giá thấp nhất của [spb](stockcode) là mấy
@@ -260,6 +268,194 @@
 - xem [mrf](stockcode)
 - hiện ra [peg](stockcode)
 - cho tôi xem [bhn](stockcode)
+- xem giá cổ phiếu [Vietcombank](stockcode:vcb)
+- giá trị mã [ngoại thương Việt Nam](stockcode:vcb)
+- giá đang khớp cổ phiếu [vietcom](stockcode:vcb)
+- giá mã [vi xi bi](stockcode:vcb)
+- cho xem [kỹ thương Việt Nam](stockcode:tcb)
+- [Techcombank](stockcode:tcb)
+- chứng khoán [techcom](stockcode: tcb)
+- Xem giá cổ phiếu [BIDV](stockcode:bid)
+- giá mã [bi ai đi vi](stockcode:bid)
+- xem giá của [bi ID vy](stockcode:bid)
+- giá trị của cổ phiếu ngân hàng [đầu tư và phát triển Việt Nam](stockcode:bid)
+- cổ phiếu [fpt](stockcode)
+- chứng khoán [bi ai đi vi](stockcode:bid)
+- ờ chứng khoán ngân hàng [kỹ thương việt nam](stockcode:tcb)
+- ờ chứng khoán [bi ai đi vi](stockcode:bid)
+- the market price of [fpt](stockcode) stock
+- chứng khoán [acb](stockcode)
+- chứng khoán[ ấy c bi](stockcode)[c bi](stockcode)
+- chúng khoán [ấy cpi](stockcode)[cpi](stockcode)
+- chứng khoán [đê tê](stockcode)
+- trường hoàn [đê tê](stockcode)
+- chứng khoán [ép lờ c](stockcode)[c](stockcode)
+- chúng khoán [s hát bê](stockcode)
+- chúng khoán [sacombank](stockcode)
+- chứng khoán [thép việt nam](stockcode)[thép việt nam](stockcode)
+- chứng khoán [s tê bê](stockcode)
+- chung quán [bidv](stockcode:bid)[bidv](stockcode)
+- chứng khoán [hòa phát](stockcode)
+- chung quanh [hòa pháp](stockcode)
+- chứng khoán [ngân hàng quân đội](stockcode)
+- chứng khoán [mờ bê banh](stockcode)
+- chứng khoán [mờ bê bê](stockcode)
+- chúng khoán [hàng không việt nam](stockcode)[việt nam](stockcode)
+- chúng khoán [hát vena](stockcode)[vena](stockcode)
+- chứng khoán [vinamilk](stockcode)
+- chứng khoán [vincom](stockcode)[vincom](stockcode)
+- [chứng khoán công ty chứng khoán thành phố hồ chí minh](stockcode)
+- chứng khoán [hát s c](stockcode)[c](stockcode)
+- chứng khoán [ssi](stockcode)
+- chứng khoán [ss](stockcode)[ss ai](stockcode)
+- chứng khoán ngân hàng [vpbank](stockcode)[vpbank](stockcode)
+- chứ còn [ngân hàng đầu tư phát triển](stockcode)
+- chúng khoán [ngân hàng á châu](stockcode)
+- chung quán [cây si pi](stockcode)[pi](stockcode)
+- chứng khoán[ icee bi](stockcode)[bi](stockcode)
+- chứng khoán [fpt](stockcode)
+- chú hoan [bi ai đi vi](stockcode:bid)[bi ai đi vi](stockcode)
+- chứng khoán [vcb](stockcode)
+- chứng khoán [vietcombank](stockcode:vcb)[vietcombank](stockcode)
+- [chứng khoán thành phố hồ chí minh](stockcode)
+- chứng khoán [đi rửa xe](stockcode)
+- chứng khoán [đê bê mờ](stockcode)
+- chứng khoán [đạm phú mỹ](stockcode)[mỹ](stockcode)
+- [đặng phú mỹ](stockcode)
+- [dược hậu giang](stockcode)
+- [đi hát gờ](stockcode)
+- chứng khoán [đề hát lờ](stockcode)
+- chúc anh[ lê hát lờ](stockcode)
+- [chúng khoán dược hậu giang](stockcode)
+- trường quán [đi bc](stockcode)[bc](stockcode)
+- chứng khoán [đa ba cô](stockcode)
+- chúng khoán [đê bê xê](stockcode)
+- chứng khoán[ c t gờ](stockcode)
+- chúng khoán[ ngân hàng công thương việt nam](stockcode)[thương việt nam](stockcode)
+- chứng khoán [ngân hàng công thương](stockcode)
+- [c taiga](stockcode)
+- chứng khoán [c taiga](stockcode)
+- chung quán [c t gờ](stockcode)
+- chung hán [chợ lớn](stockcode)
+- [chứng khoán phương đông](stockcode)
+- chưa khoan [order s](stockcode)
+- chứng khoán [o rờ e c](stockcode)[c](stockcode)
+- chứng khoán [du lịch dầu khí](stockcode)
+- chúng khoản [dịch vụ du lịch dầu khí](stockcode)
+- chứ khoán [tê nti](stockcode)
+- chứng khoán [tê tê tê](stockcode)
+- công ty xây dựng [ép lờ c](stockcode)
+- công ty xây dựng [ép lờ c fareast](stockcode)
+- chứng khoán [giờ ói s](stockcode)[s](stockcode)
+- chứng khoán [bóng đèn phích nước rạng đông](stockcode)
+- [công ty cổ phần bóng đèn phích nước rạng đông](stockcode)
+- [bóng đèn phích nước rạng đông](stockcode)
+- chúng khoán [phích nước rạng đông](stockcode)
+- chứng khoán[ rờ a lờ](stockcode)[lờ](stockcode)
+- chúng khoán[ p.m. gì](stockcode)
+- chứng khoán [phê lờ gì](stockcode)
+- chúng khoán [công ty cổ phần vàng bạc đá quý phú nhuận](stockcode)
+- chứng khoán [vàng bạc đá quý phú nhuận](stockcode)
+- chứng khoán [pi en gì](stockcode)
+- chứng khoán [nhà từ liêm](stockcode)
+- [nhà từ liêm](stockcode)
+- [mờ s lờ](stockcode)
+- chúng khoán [mà san](stockcode:msn)
+- [mà san](stockcode:msn)[mà san](stockcode)
+- chứng khoán [ngân hàng hát đê](stockcode)
+- chứng khoán [hd bank](stockcode)
+- [công ty suất nhập khẩu và và xây dựng việt nam vinacool nick](stockcode)[việt nam vinacool](stockcode)[vinacool nick](stockcode)
+- chứng khoán [về c gờ](stockcode)
+- [công ty suất nhập khẩu và xây dựng](stockcode)
+- [công ty suất nhập khẩu và xây dựng việt nam](stockcode)[việt nam](stockcode)
+- chứng khoán [vinacool](stockcode)[vinacool nick](stockcode)
+- chứng khoán[ với sư giờ](stockcode)
+- [gờ mờ đê](stockcode)
+- chứng khoán [gờ mờ đê](stockcode)
+- chứng khoán [gì em đi](stockcode)
+- chúng khoán [gas](stockcode)[gas](stockcode)
+- chứng khoán [tổng công ty khí việt nam](stockcode)[việt nam](stockcode)
+- [tổng công ty khí việt nam](stockcode)[việt nam](stockcode)
+- [công ty khí việt nam](stockcode)[việt nam](stockcode)
+- [khí việt nam](stockcode)[việt nam](stockcode)
+- chứng khoán [gas](stockcode)
+- [gas](stockcode)
+- [chứng khoán cao su đà nẵng](stockcode)[cao su đà nẵng](stockcode)
+- chứng khoán [bác](stockcode)
+- trường hoàn [bbc](stockcode)
+- chứng khoán [bi bi xi](stockcode)
+- chứng khoán [bbc](stockcode)
+- [bi bi c](stockcode)
+- chúc khoản [acb](stockcode)
+- chứng khoán [về xê bê](stockcode)[về xê bê](stockcode)
+- chứng khoán [hát pê rờ](stockcode)[hát pê rờ](stockcode)
+- chứng khoán [việc](stockcode)
+- trung hòa [vpbank](stockcode)
+- trương hoa ảnh[ mờ bê bê](stockcode)[mờ bê bê](stockcode:mbb)
+- trương hoàng [vi pi banh](stockcode)[vi pi banh](stockcode)
+- chứng khoán [ngân hàng mờ bê](stockcode)
+- [mờ bê bê](stockcode:mbb)[mờ bê bê](stockcode)
+- chứng khoán [mờ bê](stockcode)[mờ bê](stockcode)
+- chứng khoán [với](stockcode)
+- chứng khoán [vn](stockcode)[vn đây rất](stockcode)
+- chứng khoán [vi en đi](stockcode)[vi en đi](stockcode)
+- chứng khoán [về lờ đê](stockcode)[lờ](stockcode) đê
+- chứng khoán [vê lờ đê](stockcode)[lờ](stockcode) đê
+- chứng khoán [viên đài rất](stockcode)
+- chú hoàn[ ss ai](stockcode)
+- chứng khoán [vê tê mờ](stockcode)[vê tê mờ](stockcode)
+- chứng khoán [tvn](stockcode)[tvn](stockcode)
+- [thép việt nam](stockcode)
+- [tê vê lờ](stockcode)
+- [shb](stockcode)
+- [vi icee](stockcode)
+- chứng khoán [tê vê lờ](stockcode)
+- bây giờ mới được phiếu [ngân hàng đầu tư phát triển việt nam](stockcode)[triển việt nam](stockcode)
+- cổ phiếu với [ai đi vi](stockcode)
+- cổ phiếu [ngân hàng đầu tư phát triển việt nam](stockcode)[triển việt nam](stockcode)
+- [cổ phiếu ngân hàng đầu tư](stockcode)[ngân hàng đầu tư](stockcode)[ngân hàng đầu tư](stockcode)
+- cổ phiếu [bi id](stockcode)[bi id](stockcode)
+- cổ phiếu [bê](stockcode)[bê y đi](stockcode)[đi](stockcode)
+- cổ phiếu [bị đê](stockcode)[đê](stockcode)
+- cổ phiếu [bidv](stockcode:bid)[bidv](stockcode)
+- cổ phiếu[ bị đi](stockcode)[đi](stockcode)
+- [hát bê gờ](stockcode:hpg)[hát bê gờ](stockcode)
+- [este bi](stockcode)[bi](stockcode)
+- cổ phiếu [về xê bê](stockcode)[bê](stockcode)
+- cổ phiếu [bi ai đi vi](stockcode:bid)[bi ai đi vi](stockcode)
+- cổ phiếu [vinamilk](stockcode:vnm)[vinamilk](stockcode)
+- cổ phiếu [hát taiga](stockcode)[hát taiga](stockcode)
+- chúng khoán [ngân hàng phát triển hồ chí minh](stockcode)[ngân hàng phát triển hồ chí minh](stockcode)
+- cổ phiếu [ngân hàng phát triển hồ chí minh](stockcode)
+- chứng khoán [hát đê bê](stockcode:hdb)[hát đê bê](stockcode)
+- cổ phiếu [hát đê bê](stockcode:hdb)[hát đê bê](stockcode)
+- cổ phiếu [công ty khí việt nam](stockcode)[việt nam](stockcode)
+- cổ phiếu [gas](stockcode)[gas](stockcode)
+- cục trưởng [fpt](stockcode)
+- chứng [khoán ngân hàng phát triển thành phố hồ chí minh](stockcode)[ngân hàng phát triển thành phố hồ chí minh](stockcode)
+- cổ phiếu [y sim bank](stockcode)[bank](stockcode)
+- cổ phiếu [em xin bank](stockcode)[bank](stockcode)
+- cổ phiếu ngân hàng xuất nhập khẩu [việt nam](stockcode)
+- [cổ phiếu ngân hàng phát triển thành phố hồ chí minh](stockcode)[ngân hàng phát triển thành phố hồ chí minh](stockcode)
+- cổ phiếu [công thương](stockcode)[công thương](stockcode)
+- cổ phiếu [ngân hàng công thương](stockcode:ctg)[ngân hàng công thương](stockcode)
+- cổ phiếu [c taiga](stockcode:ctg)
+- [công ty cổ phần xây](stockcode)[công ty cổ phần xây dựng](stockcode)[xây dựng cô text con](stockcode)[cô text con](stockcode)[cô text con](stockcode)
+- chứng khoán [mờ vê kép giờ](stockcode)
+- cổ phiếu [mờ vê kép giờ](stockcode)
+- chứng khoán [mờ đáp lưu gờ](stockcode)[gờ](stockcode)
+- cổ phiếu [mờ đáp lưu gờ](stockcode)[gờ](stockcode)
+- chứng khoán [thế giới di động](stockcode)[giới di động](stockcode)
+- cổ phiếu [tập đoàn ma san](stockcode)
+- cổ phiếu [tập đoàn lá xanh](stockcode)
+- chứng khoán [mà san](stockcode:msn)[mà san](stockcode)
+- cổ phiếu [mờ s lờ](stockcode: msn)[mờ s lờ](stockcode)
+- chứng khoán [mờ s lờ](stockcode: msn)[mờ s lờ](stockcode)
+- cổ phiếu [ngân hàng thương mại cổ phần quân đội](stockcode)
+- cổ phiếu [mờ bê banh](stockcode:mbb)[mờ bê banh](stockcode)
+- cổ phiếu [ngân hàng mờ bê](stockcode)
+- cổ phiếu [ngân hàng quân đội](stockcode:mbb)[ngân hàng quân đội](stockcode)
+- cổ phiếu [mờ bê bê](stockcode:mbb)[mờ bê bê](stockcode)
 
 ## intent:stock_price_open
 - giá mở của của cổ phiếu [ts4](stockcode) là bao nhiêu
@@ -282,6 +478,9 @@
 - tham chiếu [lnc](stockcode)
 - tham chiếu giá [lmi](stockcode)
 - giá tham chiếu của chứng khoán [lpb](stockcode) là bao nhiêu
+- giá tham chiếu cổ phiếu [mà sang](stockcode)
+- tham chiếu cổ phiếu [mà san](stockcode)
+- cổ phiếu công ty [kotex](stockcode)[kotex công](stockcode)
 
 ## intent:stock_volume_foreign_bought
 - Hiện tại, tổng khối lượng mua của các nhà đầu tư nước ngoài với mã [lqn](stockcode) đã khớp là bao nhiêu ?
@@ -585,6 +784,8 @@
 - rắc muôi cho bớt nhạt
 - em nói chuyện nhạt quá
 - em nói chuyện thiếu muối quá
+- chủ quán [đi giờ c](stockcode)
+- chuồn hết bây giờ
 
 ## intent:agent.boss
 - ai là sếp của bạn?
@@ -967,6 +1168,7 @@
 - hey nói gì đi
 - em ơi nói gì đi
 - mày nói gì đi mày
+- kể chuyện
 
 ## intent:agent.there
 - bạn có ở đó không?
@@ -1004,6 +1206,7 @@
 - mày nghĩ lại xem nào
 - bạn nghĩ lại xem
 - chắc chắn chưa
+- thật không
 
 ## intent:agent.right
 - đúng
@@ -1484,6 +1687,7 @@
 - em nói sai rồi
 - bạn nói sai rồi
 - không phải rồi
+- chị nói không rõ
 
 ## intent:emotions.ha_ha
 - lol
@@ -1616,6 +1820,7 @@
 - chúc mai ngủ ngon
 - em ngủ ngon nhé
 - nite nite em
+- tối
 
 ## intent:greetings.hello
 - lâu rồi không gặp
@@ -1767,6 +1972,7 @@
 - đang làm gì đấy
 - em đang làm gì đấy
 - Mai đang làm gì đấy
+- Vốn hóa là gì?
 
 ## intent:user.angry
 - Tôi đang điên
@@ -1993,6 +2199,7 @@
 - giờ mới có time nói chuyện với mai
 - anh về với mai rồi đây
 - anh đây mai ơi
+- đây
 
 ## intent:user.joking
 - tôi đang đùa
@@ -2142,6 +2349,8 @@
 - tôi yêu mai
 - anh yêu em em có yêu anh không
 - mai có yêu anh không
+- i love you
+- ai lớp du là gì
 
 ## intent:user.misses_agent
 - Tôi nhớ bạn
@@ -2205,6 +2414,7 @@
 - cảm thấy buồn ngủ quá
 - anh buồn ngủ quá
 - anh thấy buồn ngủ quá mai ơi
+- tôi buồn ngủ quá
 
 ## intent:user.wants_to_talk
 - hãy thảo luận về một cái gì đó
@@ -2285,6 +2495,7 @@
 - alo
 - sư phụ
 - test
+- 123
 
 ## intent:user.tired
 - TÔi kiệt sức
@@ -2428,108 +2639,257 @@
 ## intent:stop
 - /stop
 
-## intent:request_joke
-- tell me a joke
-- give me a joke
-- tell me a good joke
-- tell me a funny joke
-- tell me something funny
-- make me laugh
+## intent:def.co_phieu
+- cổ phiếu là gì
+- Cổ phiếu là gì
+- cổ phiếu là chứng khoán có đúng không
+- cổ phiếu là cái gì gọi lại
+- cái gì là cổ phiếu
+- cổ phiếu là như thế nào
+- cổ phiếu nghĩa là gì
+- cổ phiếu cổ phiếu là gì
 
-## intent:request_quote
-- tell me a quote
-- give me a quote
-- tell me an inspirational quote
-- give me an inspirational quote
+## intent:def.chung_khoan
+- chứng khoán là gì
+- chúng khoán là gì
+- chứng khoán là cổ phiếu có đúng không
+- chính khoán có gì
+- chúng khoán là gì mình
+- chứng khoán
 
-## intent:request_fun_fact
-- tell me a fun fact
-- tell me a random fun fact
-- give me a fun fact
-- what is a good fun fact
-- give me the fact of the day
-- what is the fact of the day
+## intent:def.exchange_trade_fund
+- chứng chỉ quỹ là gì
 
-## intent:request_word_definition
-- what is the definition of [applying](word)?
-- what is the definition of [needless](word)?
-- what is the definition of [discovery](word)?
-- what is the definition of [dark](word)?
-- what is the definition of [trade](word)?
-- what is the definition of [shrill](word)?
-- what is the definition of [subtract](word)?
-- what is the definition of [contain](word)?
-- what is the definition of [influence](word)?
-- what is the definition of [awake](word)?
-- what is the definition of [curve](word)?
-- what is the definition of [examine](word)?
-- what is the definition of [wriggle](word)?
-- what is the definition of [afternoon](word)?
-- what is the definition of [turn](word)?
-- what is the definition of [silky](word)?
-- what is the definition of [deafening](word)?
-- what is the definition of [tumble](word)?
-- what is the definition of [winter](word)?
-- what is the definition of [languid](word)?
-- what is the meaning of [applying](word)?
-- what is the meaning of [needless](word)?
-- what is the meaning of [discovery](word)?
-- what is the meaning of [dark](word)?
-- what is the meaning of [trade](word)?
-- what is the meaning of [shrill](word)?
-- what is the meaning of [subtract](word)?
-- what is the meaning of [contain](word)?
-- what is the meaning of [influence](word)?
-- what is the meaning of [awake](word)?
-- what is the meaning of [curve](word)?
-- what is the meaning of [examine](word)?
-- what is the meaning of [wriggle](word)?
-- what is the meaning of [afternoon](word)?
-- what is the meaning of [turn](word)?
-- what is the meaning of [silky](word)?
-- what is the meaning of [deafening](word)?
-- what is the meaning of [tumble](word)?
-- what is the meaning of [winter](word)?
-- what is the meaning of [languid](word)?
-- what does [applying](word) mean?
-- what does [needless](word) mean?
-- what does [discovery](word) mean?
-- what does [dark](word) mean?
-- what does [trade](word) mean?
-- what does [shrill](word) mean?
-- what does [subtract](word) mean?
-- what does [contain](word) mean?
-- what does [influence](word) mean?
-- what does [awake](word) mean?
-- what does [curve](word) mean?
-- what does [examine](word) mean?
-- what does [wriggle](word) mean?
-- what does [afternoon](word) mean?
-- what does [turn](word) mean?
-- what does [silky](word) mean?
-- what does [deafening](word) mean?
-- what does [tumble](word) mean?
-- what does [winter](word) mean?
-- what does [languid](word) mean?
+## intent:def.stock_exchange
+- sàn giao dịch là gì
+- Sở giao dịch là gì
+- sàn giao dịch chứng khoán là gì
 
-## intent:request_trivia
-- what is the [height](attribute) of the [empire state building](entity)?
-- what is the [height](attribute) of the [Empire State Building](entity)?
-- what is the [height](attribute) of [everest](entity)?
-- what is the [elevation](attribute) of [mount everest](entity)?
-- what is the [population](attribute) of [england](entity)?
-- what is the [population](attribute) of [london](entity)?
-- what is the [latitude](attribute) of [new york city](entity)?
-- what is the [group](attribute) of [helium](entity)?
-- what is the [atomic weight](attribute) of [lithium](entity)?
-- what is the [length](attribute) of the [nile](entity)?
-- what is the [outflow](attribute) of the [amazon](entity)?
-- what is the [length](attribute) of the [amazon river](entity)?
-- what is the [definitiion](attribute) of [study](entity)?
-- what is the [area](attribute) of [africa](entity)?
-- what is the [lowest point](attribute) in [asia](entity)?
-- what is the [highest point](attribute) in [europe](entity)?
-- what is the [longitude](attribute) of [amsterdam](entity)?
+## intent:def.volume_trade
+- Khối lượng giao dịch là gì
+
+## intent:def.stock_price_floor
+- [Việt Nam](stockcode) có mấy sàn giao [dịch](stockcode)?
+
+## intent:def.bond
+- trái phiếu là gì
+- Trái phiếu là gì
+
+## intent:def.transaction_office
+- sở giao dịch là gì
+
+## intent:def.how_many_transaction_offices
+- [Việt](stockcode) Nam có mấy sở giao dịch
+- [Việt](stockcode) Nam có mấy sở giao dịch?
+
+## intent:def.min_invest
+- Đầu tư chứng khoán cần tối thiểu bao nhiêu tiền
+
+## intent:def.account_opening_fee
+- mở tài khoản có mất phí không
+- Mở tài khoản chứng khoán có mất phí không?
+
+## intent:def._to_opening_account
+- Thủ tục mở tài khoản chứng khoán cần gì
+
+## intent:def.how_to_trade
+- Có những cách nào để đặt lệnh mua bán
+- Làm thế nào để mua bán cổ phiếu
+
+## intent:def.online_trading
+- Đặt lệnh online là gì
+
+## intent:def.money_safe
+- Tiền để trong tài khoản chứng khoán có an toàn không
+
+## intent:def.money_interest_calculated
+- Tiền để trong tài khoản chứng khoán có được tính lãi suất không
+
+## intent:def.stock_is_up_or_down
+- Làm sao để biết được cổ phiếu đăng tăng giá hay giảm giá
+
+## intent:def.trading_fee
+- Phí giao dịch chứng khoán là bao nhiêu
+
+## intent:def.buy_or_sell_same_tock_at_same_time
+- Có thể mua bán cùng 1 cổ phiếu trong cùng thời điểm không
+
+## intent:def.sell_stock_none
+- Có thể bán chứng khoán khi trong tài khoản không có chứng khoán đó không
+
+## intent:def.time_to_sell_stock
+- Có thể bán chứng khoán khi nào
+
+## intent:def.rights_of_stock
+- Quyền của cổ phiếu là gì
+- Quyền của cổ đông là gì
+- cô tức cổ phiếu là gì
+
+## intent:def.exsercise_stock_rights
+- Cần làm gì để thực hiện quyền cổ phiếu
+
+## intent:def.receive_stock_dividends
+- Cần làm gì để nhận cổ tức cổ phiếu
+- Cần làm gì để nhận cổ tức cổ phiếu?
+
+## intent:def.opening_accounts_same_time
+- Có được mở tài khoản ở nhiều công ty chứng khoán cùng [lúc](stockcode) được không
+
+## intent:def.selling_stock_after_buying
+- Sau khi mua cổ phiếu thì có bán được ngay không
+- Sau khi bán cổ phiếu thì có được rút tiền ngay không
+
+## intent:def.time_to_receive_stock
+- Sau khi mua cổ phiếu thì bao lâu cổ phiếu sẽ về tài khoản
+
+## intent:def.deposit_to_account
+- Cách nộp tiền vào tài khoản chứng khoán
+- cách nộp tiền vào tài khoản chứng khoán
+
+## intent:def.withdraw
+- Cách rút tiền từ tài khoản chứng khoán
+
+## intent:def.margin_trading
+- Giao dịch ký quỹ là gì
+- margin là gì
+- Margin là gì
+- marin là gì
+
+## intent:def.margin_interest_rate
+- Lãi suất giao dịch ký quỹ là bao nhiêu
+
+## intent:def.initial_margin_ratio
+- tỷ lệ ký quỹ ban đầu là gì
+- Tỷ lệ ký quỹ là gì
+
+## intent:def.margin_call
+- tỷ lệ cảnh báo là gì
+- tỷ lệ cảnh báo (margin [call](stockcode)) là gì
+- 1.000.000.000 lệ cảnh báo là gì
+- 1.000.000.000 lệ ký quỹ là gì
+
+## intent:def.overseas_opening_account
+- Công dân [Việt Nam](stockcode) đang ở nước ngoài thì có thể mở tài khoản giao dịch chứng khoán ở [Việt Nam](stockcode) không
+
+## intent:def.buy_foreign_securities
+- Tài khoản giao dịch chứng khoán có mua được chứng khoán nước ngoài không
+
+## intent:def.list_of_stock_listed
+- Danh sách các mã cổ phiếu đang niêm yết
+
+## intent:def.upcom_floor
+- Sàn [Upcom](stockcode) là gì
+- [upcom](stockcode) là gì
+- sàn giao [dịch](stockcode) ấp con
+- sàn giao [dịch](stockcode) đất [com](stockcode)
+
+## intent:def.time_trading_hose
+- Quy định về thời gian giao [dịch](stockcode) chứng khoán sàn Hose
+
+## intent:def.amount_trading_hsx
+- Quy định về khối lượng giao [dịch](stockcode) chứng khoán tại sàn Hồ Chí [Minh (Hsx](stockcode))
+- Quy định về khối lượng giao [dịch](stockcode) chứng khoán tại sàn Hồ Chí [Minh](stockcode)
+
+## intent:def.market_capitalization
+- vốn hoá là gì
+
+## intent:how_to_opening_account
+- Có bắt buộc phải đến công ty chứng khoán khi mở tài khoản không
+- Có bắt buộc phải đến công ty chứng khoán khi mở tài khoản không?
+
+## intent:def.capitalization
+- Vốn hóa là gì
+
+## intent:def.amount_trading_hnx
+- Quy định về khối lượng giao [dịch](stockcode) chứng khoán tại sàn Hà Nội
+
+## intent:def.tet_vietnam
+- tết việt nam
+
+## intent:def.stock_center
+- trung tâm lưu ký
+- trung tâm lưu ký chứng khoán
+
+## intent:def.dividends_meaning
+- cổ tức là gì
+- cô tức là gì
+
+## intent:def.amount_trading_upcome
+- Quy định về khối lượng giao [dịch](stockcode) chứng khoán tại sàn [Upcom](stockcode)
+
+## intent:def.finance_meaning
+- tài chính là gì
+
+## intent:def.viet_tin_securities
+- chứng khoán [việt](stockcode) tín
+
+## intent:def.age_to_opening_account
+- sinh viên có được mở tài khoản chứng khoán không
+- bao nhiêu tuổi thì được mở tài khoản
+
+## intent:def.investing_securities
+- đầu tư chứng khoán có được nhiều tiền không
+
+## intent:def.trading_oder_meaning
+- lệnh giao dịch là gì
+
+## intent:def.lost_money_to_invest
+- Đầu tư chứng khoán có bị mất tiền không
+
+## intent:def.transfer_money_company_to_company
+- Làm thế nào để chuyển chứng khoán [từ](stockcode) tài khoản ở công ty này sang tài khoản ở công ty khác
+
+## intent:def.etf_meaning
+- Quỹ ETF là gì
+
+## intent:def.derivatives_meaning
+- Chứng khoán phái sinh là gì
+
+## synonym: msn
+- mà san
+- mà sang
+- Masan
+- tập đoàn Masan
+- masan
+- mờ s lờ
+- tập đoàn masan
+- tập đoàn ma san
+
+## synonym: tcb
+- kỹ thương Việt Nam
+- Techcombank
+- techcom
+- techcombank
+- Techcom
+- kĩ thương Việt Nam
+
+## synonym: vcb
+- Vietcombank
+- ngoại thương Việt Nam
+- vietcom
+- vi xi bi
+- vietcombank
+- Vietcom
+- về xê bê
+
+## synonym:bid
+- BIDV
+- bi ai đi vi
+- bi ID vy
+- đầu tư và phát triển Việt Nam
+- bidv
+- Bi ai đi vi
+- Bi ID vy
+- ngân hàng đầu tư và phát triển Việt Nam
+- BID
+- ngân hàng đầu tư phát triển
+- ngân hàng đầu tư phát triển việt nam
+- cổ phiếu ngân hàng đầu tư
+- ngân hàng đầu tư
+- bi id
+- bê y đi
+- bị đê
+-  bị đi
 
 ## synonym:cổ phiếu
 - mã
@@ -2537,13 +2897,15 @@
 - chung khoan
 - chứng khoán
 
-## synonym:height
-- do cao
-- cao
-- cao do
-
-## lookup: location- bạn có lời khuyên nào cho tôi không
-  data/ location- bạn có lời khuyên nào cho tôi không
+## synonym:vic
+- vi ai xi
+- Vingroup
+- tập đoàn Vingroup
+- víc
+- vincom
+- việc
+- với
+- vi icee
 
 ## lookup:stockcodes.txt
   data/lookups/stockcodes.txt

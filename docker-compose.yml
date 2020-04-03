@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  mai-rasa-vi:
+    image: mai-rasa-vi:1.0
+    container_name: rasa-vi
+    ports:
+      - 8081:5002
+      - 5050:5005
+    volumes:
+      - .:/rasa
